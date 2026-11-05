@@ -157,3 +157,9 @@ are adapted from Skyfuller1303’s MIT OR Apache-2.0 implementation in
 `897f20072762fdf0eb688adcdb8d8cda7b38ce66`. Don Omondi’s embedded AI/PDF/EPS
 extension and current-main integration build on that source. Clipboard and unrelated
 Shape Tools changes from that branch are not included.
+
+## Thai edition screenshots
+
+| Path | Title | Author | Source | License |
+|---|---|---|---|---|
+| `docs/images/th/*.png` | Thai workspace and new-document screenshots | Tapanapon Thai localization project; underlying UI by PhotoCraft contributors | Captured from the packaged app using a synthetic Thai demo document | MIT OR Apache-2.0 for original demo content; existing UI/brand notices retained |
