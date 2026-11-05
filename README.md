@@ -1,6 +1,6 @@
 # PhotoCraft TH — โปรแกรมแต่งภาพภาษาไทยสำหรับ Mac
 
-[ดาวน์โหลด DMG / Download](https://github.com/tapanapon-com/photocraft-th/releases/tag/v0.20.1-th.1) · [ArtCraft บน Tapanapon](https://tapanapon.com/artcraft) · [English](#english)
+[ดาวน์โหลด DMG / Download](https://github.com/tapanapon-com/photocraft-th/releases/tag/v0.20.1-th.1) · [วันละ Craft / One Per Craft](https://tapanapon.com/one-per-craft) · [English](#english)
 
 PhotoCraft TH เป็นรุ่นปรับแต่งภาษาไทยของ [PhotoCraft โดย storytold](https://github.com/storytold/photocraft) โปรแกรมแก้ไขภาพแบบเนทีฟที่เขียนด้วย Rust ใช้ egui/wgpu สำหรับหน้าจอและการแสดงผล เหมาะสำหรับทดลองทำงานกับภาพ เลเยอร์ มาสก์ แปรง และข้อความ โดยใช้เมนูภาษาไทย
 
@@ -82,4 +82,4 @@ Based on upstream 0.20.1, revision `8e9277e20e8d5185ed4259908022a719a647237e`. T
 
 Read the [upstream README](README-upstream.md), [attribution](ATTRIBUTION.md), [MIT](LICENSE-MIT) and [Apache-2.0](LICENSE-APACHE) notices. Retain original copyright and asset licenses when redistributing. The repository-initialization `LICENSE` does not replace upstream notices. Upstream branding is subject to its own terms.
 
-For build instructions, see the [bilingual localization guide](docs/localization-th.md). Product news and downloads are collected at [Tapanapon ArtCraft](https://tapanapon.com/artcraft).
+For build instructions, see the [bilingual localization guide](docs/localization-th.md). Product news and downloads are collected at [One Per Craft by Tapanapon](https://tapanapon.com/one-per-craft).
