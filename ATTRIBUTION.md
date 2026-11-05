@@ -10,6 +10,7 @@ next to them.
 
 | Path | Title | Author | Source | License |
 |---|---|---|---|---|
+| `crates/ui-egui/src/i18n/th.tsv`, `scripts/thai/overrides.tsv` | Thai interface localization | Thai localization contributors; craft-i18n and FilmCraft Thai contributors | Shared terms from [craft-i18n](https://github.com/storytold/craft-i18n/tree/c199dc459eb3f1f105f87edaf5b0b1f8f32ca846/locales/th) and [FilmCraft Thai](https://github.com/tapanapon-com/filmcraft-th/tree/05b5b5fc); new translations and terminology corrections in this checkout | MIT OR Apache-2.0; repository license files |
 | `crates/codecs/src/codecs/xpm/x11_colors.rs` | X11 `rgb.txt` color-name lookup table (normalized X.Org RGB values) | X.Org Foundation and X11 contributors | <https://cgit.freedesktop.org/xorg/app/rgb/tree/rgb.txt> | MIT (X.Org app/rgb) |
 | `crates/ui-egui/src/i18n/el.tsv` | Greek UI translations | PhotoCraft contributors | Original translations of PhotoCraft's English labels | MIT OR Apache-2.0, [`LICENSE-translations.txt`](crates/ui-egui/src/i18n/LICENSE-translations.txt) |
 | `crates/ui-egui/src/i18n/de.tsv` | German UI translations | PhotoCraft contributors | Original translations of PhotoCraft's English labels | MIT OR Apache-2.0, [`LICENSE-translations.txt`](crates/ui-egui/src/i18n/LICENSE-translations.txt) |

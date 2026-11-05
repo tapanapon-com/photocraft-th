@@ -444,3 +444,16 @@ fn bundled_catalogs_are_consistent() {
         }
     }
 }
+
+#[test]
+fn thai_tags_and_preferences_resolve() {
+    let th = Lang::from_code("th").expect("Thai registered");
+    for tag in ["th", "TH", "th-TH", "th_TH", "th_TH.UTF-8"] {
+        assert_eq!(lang_from_tag(tag), Some(th), "{tag}");
+        assert_eq!(Lang::from_pref(tag), th, "{tag}");
+    }
+    assert_eq!(th.name(), "ไทย");
+    assert_eq!([0, 1, 2, 100].map(th.0.plural), [0, 0, 0, 0]);
+    assert_eq!(tr(th, "File"), "ไฟล์");
+    assert!(Lang::for_picker().contains(&th));
+}

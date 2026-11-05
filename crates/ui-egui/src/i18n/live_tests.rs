@@ -27,6 +27,7 @@ fn requested_languages_resolve_regional_preferences() {
         ("fr-CA", "fr"),
         ("id-ID", "id"),
         ("vi-VN", "vi"),
+        ("th-TH", "th"),
         ("sr-RS", "sr"),
     ] {
         assert_eq!(Lang::from_pref(tag), lang(code), "{tag}");
@@ -309,7 +310,7 @@ fn a_control_request_changes_the_drawing_language_in_the_same_frame() {
     with_language(Lang::EN, || {
         let mut h = harness();
         let document = h.state().session.active().expect("document").doc.clone();
-        for code in ["zh-hans", "ja", "ko", "ru", "uk", "fr", "id", "en"] {
+        for code in ["zh-hans", "ja", "ko", "ru", "uk", "fr", "id", "th", "en"] {
             let (tx, rx) = std::sync::mpsc::channel();
             h.state_mut().control_rx = Some(rx);
             let (request, reply) =
