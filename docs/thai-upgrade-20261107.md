@@ -1,19 +1,20 @@
-# Photocraft Thai upgrade 7 November 2026
+# PhotoCraft TH 0.21.0-th.1 — verified package record
 
-Upstream release: https://github.com/storytold/photocraft/releases/tag/v0.21.0
+Complete upstream v0.21.0 tag: `efb7ebd0c0dab1fc108ee4642aa47c22694271a8`.
 
-Thai distribution being prepared: 0.21.0-th.1. Based on the complete upstream release tag, preserving its engine and format crate versions. Existing Thai translations remain, with new source strings translated. Current Thai catalog: 4,726 entries.
+Thai catalog: 4,726 entries. Core engine/format versions remain upstream-compatible.
 
-Catalog validation passed. Native build, platform packaging and integration checks are in progress. This record does not claim that installers have been released or that all upstream functionality has been tested. Previous 0.20.1 validation reports remain historical.
+UI and integration: 5,513 passed, 23 ignored. Updater checks: 4 passed. Final localization checks: 63 passed. Clippy, formatting, dependency layers, wasm and HEIF wasm checks passed.
 
-Mac builds are ad-hoc signed and are not Apple-notarized. Windows builds are unsigned. Build one job at a time.
+Mac: mounted-DMG integrity, strict ad-hoc signatures, arm64 GUI/CLI, Thai interface, native file save/reopen and real screenshots passed; MCP 26 tools. Windows x64: native build, CLI version, MCP 26 tools, installer policy, MSI/portable structure and SHA-256 checks passed ([workflow](https://github.com/tapanapon-com/photocraft-th/actions/runs/42392279647)). Manual testing of every Windows GUI workflow is not claimed.
 
-## Font selection compatibility fix
+Mac SHA-256: `0162006f4c344ad80bbfb6127a2ab967c332f91b54fc83c840237c5de0c91828` (132,793,135 bytes).
 
-Retyping the currently applied font name must remain an explicit query, and the first Down key must retain its exact match before stepping to substring matches. This addresses the previously observed Inter versus SignPainter selection failure on this Mac. A focused picker regression test and the existing selected-range font tests verify the behavior. The complete UI and integration suites passed after the fix (5,513 tests, 23 ignored). Clippy, dependency layering and both wasm checks passed. Source scanning identified 29 additional strings beyond the reference-catalog union; those are now translated and are being revalidated.
+Windows artifacts:
 
-Final source validation: 4,726 Thai entries, 2,361/2,361 source keys, 63 localization checks after the last catalog update. Clippy and both wasm checks passed again for that final catalog. Full UI and integration tests passed (5,513 tests, 23 ignored); updater checks passed (4). The previous three font-selection failures are resolved. Platform packages are the next step.
+- `photocraft-0.21.0-th.1-windows-x64.msi` — SHA-256 `c60d6479a2b9bcd47080ae9ea13b9e982e3a5b41e248335e5094bc2c31554b30` (112,070,656 bytes).
+- `photocraft-0.21.0-th.1-windows-x64-portable.zip` — SHA-256 `f103d7df52b719fcd2ca6a11a41eaa1065157149dddc56fb0ef5670026558a2d` (134,463,448 bytes).
 
-## Mac package verification
+[Version Log](version-log.md) · [Current validation](validation-0.21.0-th.1.json)
 
-The 0.21.0-th.1 DMG passed hdiutil checksum, read-only mounting, strict app/CLI signature checks and arm64 architecture checks. Both executables matched the signed local bundle. Its CLI reported the Thai version and passed an actual MCP initialize/tools-list exchange (26 tools). The app was launched from the mounted DMG with an isolated PHOTOCRAFT_CONFIG_DIR and scoped automation roots. Thai language selection, switching, native document save/reopen and PNG export passed; the real workspace, new-document dialog and exported PNG were visually inspected. Nothing was installed over /Applications or the user preferences. Windows packaging remains pending.
+Mac builds are ad-hoc signed and not Apple-notarized. Windows builds are unsigned. Earlier release reports remain historical.

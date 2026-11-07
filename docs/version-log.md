@@ -22,7 +22,11 @@ The release tag was merged in full. These are selected upstream highlights, cred
 
 ### ผลตรวจ / Validation
 
-UI and integration: 5,513 passed, 23 ignored. Updater checks: 4 passed. Final localization checks: 63 passed. Clippy, formatting, dependency layers, wasm and HEIF wasm checks passed. See [source validation](validation-0.21.0-th.1.json) and [upgrade notes](thai-upgrade-20261107.md). Platform checks and artifact hashes are recorded with the release after packaging; source coverage does not imply that every upstream feature or external diagnostic has been tested or translated.
+UI and integration: 5,513 passed, 23 ignored. Updater checks: 4 passed. Final localization checks: 63 passed. Clippy, formatting, dependency layers, wasm and HEIF wasm checks passed.
+
+Mac: mounted-DMG integrity, strict ad-hoc signatures, arm64 GUI/CLI, Thai interface, native file save/reopen and real screenshots passed; MCP 26 tools. Windows x64: native build, CLI version, MCP 26 tools, installer policy, MSI/portable structure and SHA-256 checks passed ([workflow](https://github.com/tapanapon-com/photocraft-th/actions/runs/42392279647)). Manual testing of every Windows GUI workflow is not claimed.
+
+See [current validation](validation-0.21.0-th.1.json) for artifact hashes and exact build provenance.
 
 Mac packages use ad-hoc signatures and are not notarized. Windows packages are unsigned. Windows CLI/installer checks run on a native Windows CI runner; this does not claim manual testing of every Windows GUI workflow.
 
