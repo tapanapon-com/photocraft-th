@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-07",
+  "thaiVersion": "0.21.0-th.1",
+  "upstreamTag": "v0.21.0",
+  "upstreamCommit": "efb7ebd0c0dab1fc108ee4642aa47c22694271a8",
+  "catalogEntries": 4726,
+  "sourceKeysTranslated": 2361,
+  "sourceKeysTotal": 2361,
+  "tests": {
+    "uiLibraryPassed": 5322,
+    "integrationPassed": 191,
+    "ignored": 23,
+    "updaterPassed": 4,
+    "localizationAfterFinalCatalogPassed": 63,
+    "fontVisualHarnessPassed": 1
+  },
+  "clippy": "passed",
+  "layers": "31 crates passed",
+  "wasm": "24 crates plus HEIF passed",
+  "sourceCoverage": "100 percent; no missing Thai keys",
+  "packaging": "not yet built"
+}

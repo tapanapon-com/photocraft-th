@@ -5,7 +5,7 @@
 ## ต้นฉบับและเครดิต
 
 - PhotoCraft: https://github.com/storytold/photocraft
-- ฐานต้นฉบับ: `8e9277e20e8d5185ed4259908022a719a647237e` (0.20.1)
+- ฐานต้นฉบับ: `efb7ebd0c0dab1fc108ee4642aa47c22694271a8` (0.21.0)
 - โค้ดและคำแปลใหม่: MIT OR Apache-2.0 ตามสัญญาอนุญาตของโครงการ
 - คำแปลร่วมบางส่วนมาจากงานภาษาไทยใน FilmCraft และ craft-i18n ซึ่งอยู่ภายใต้ MIT OR Apache-2.0
 - นี่เป็นรุ่นปรับแต่งภาษาไทย ไม่ใช่รุ่นทางการหรือรุ่นที่ได้รับการรับรองจากผู้สร้างต้นฉบับ
@@ -36,7 +36,7 @@ cargo xtask wasm
 
 ## English
 
-This independently modified build adds Thai to PhotoCraft, a native Rust image editor based on [storytold/photocraft](https://github.com/storytold/photocraft), revision `8e9277e20e8d5185ed4259908022a719a647237e` (0.20.1). It is separate from the FilmCraft localization and is not an official upstream release.
+This independently modified build adds Thai to PhotoCraft, a native Rust image editor based on [storytold/photocraft](https://github.com/storytold/photocraft), revision `efb7ebd0c0dab1fc108ee4642aa47c22694271a8` (0.21.0). It is separate from the FilmCraft localization and is not an official upstream release.
 
 Select **PhotoCraft › Language › ไทย** in the macOS menu bar, or set `interface.language` to `th`. Regional Thai locale identifiers also resolve to Thai. Translations are embedded at build time and work offline. Command identifiers, document formats and image-processing behavior remain upstream's implementation.
 
@@ -46,9 +46,9 @@ Retain the upstream license, NOTICE and asset attribution when redistributing. L
 
 ## ความครอบคลุม / Coverage
 
-ตารางภาษาไทยมี **4,627 รายการ** ครอบคลุมทุกคีย์ในตารางภาษาเดิม และข้อความใหม่ที่ตรวจพบจากโค้ดอีก 56 รายการ `cargo xtask i18n-coverage` รายงาน **2,272/2,272 (100%)** สำหรับคีย์ที่เครื่องมือตรวจจากโค้ดได้ ตัวเลขนี้เป็นความครอบคลุมของระบบแปล ไม่ใช่การรับรองว่าข้อความจากระบบปฏิบัติการหรือไลบรารีภายนอกทั้งหมดเป็นภาษาไทย
+ตารางภาษาไทยมี **4,726 รายการ** ครอบคลุมคีย์อ้างอิงทั้งหมด และตัวสแกนซอร์สรายงาน **2,361/2,361 (100%)** ไม่พบคีย์ไทยที่ขาด เพิ่มคำแปล 99 รายการจากรุ่นก่อนหน้า การนับนี้ไม่รวมข้อความที่ไม่ผ่านระบบแปลของแอปจากระบบปฏิบัติการหรือไลบรารีภายนอก
 
-The catalog contains **4,627 entries**. The source-key coverage tool reports **2,272/2,272 (100%)**. This measures catalog coverage, not the language of every OS or third-party error message.
+The catalog contains **4,726 entries** and covers **2,361/2,361 source-derived keys (100%)**. It adds 99 translations over the previous Thai release. This measures the app's localization catalog, not every OS or third-party diagnostic. See [current validation](validation-0.21.0-th.1.json).
 
 ## สร้างแอป / Build the app
 
@@ -64,3 +64,7 @@ DMG อยู่ใน `dist/thai/` เปิดไฟล์แล้วลา�
 The DMG is written to `dist/thai/`. Open it and drag PhotoCraft to Applications. This local build is ad-hoc signed, not Apple-notarized, and supports only the architecture it was built for.
 
 ผลตรวจและข้อจำกัดของชุดทดสอบ / Test results and remaining failures: [validation-th.md](validation-th.md).
+
+## อัปเกรด 7 พฤศจิกายน 2026
+
+รวมซอร์สต้นฉบับรุ่นใหม่และคงชุดแปลภาษาไทย ดูสถานะการตรวจและการแพ็กเกจใน [บันทึกอัปเกรด](thai-upgrade-20261107.md) ก่อนใช้ตัวเลขทดสอบรุ่นเก่าอ้างอิงรุ่นนี้

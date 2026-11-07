@@ -1,5 +1,3 @@
-> **ภาษาไทย / Thai:** ดู [คู่มือรุ่นภาษาไทย](docs/localization-th.md) สำหรับการเลือกภาษา เครดิตต้นฉบับ และการตรวจสอบคำแปล / See the Thai localization guide for setup, attribution and validation.
-
 <p align="center">
   <a href="https://getartcraft.com/">
     <picture>

@@ -433,6 +433,24 @@ fn the_search_field_stays_put_while_the_arrows_scroll_the_list() {
     assert_eq!(search, h.get_by_role(Role::TextInput).rect(), "the search field scrolled away with the list");
 }
 
+/// Retyping the applied family still narrows the list, even when the field's final
+/// value is unchanged. Arrow navigation must not apply a different system font.
+#[test]
+fn retyping_the_current_family_keeps_arrow_navigation_in_the_query() {
+    let mut h = harness();
+    h.state_mut().families.push("Family 001".into());
+    h.state_mut().families.sort();
+    open(&mut h);
+    h.get_by_role(Role::TextInput).type_text("Family 00");
+    h.run();
+    assert!(h.query_by_label("Family 01").is_none());
+    h.key_press(Key::ArrowDown);
+    h.run();
+    h.key_press(Key::Enter);
+    h.run();
+    assert_eq!(h.state().current, "Family 00");
+}
+
 /// A query matching no family shrinks the menu to its header and the class list beside the
 /// list; clearing it grows the menu back to its full height (egui#5225), and the search field
 /// stays where it was throughout.

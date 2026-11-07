@@ -1,0 +1,3 @@
+# TSV translation fields preserve meaningful spaces, such as the "Set " prefix.
+crates/ui-egui/src/i18n/th.tsv whitespace=-blank-at-eol
+scripts/thai/overrides.tsv whitespace=-blank-at-eol

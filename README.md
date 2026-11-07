@@ -64,6 +64,11 @@ PhotoCraft is a native Rust image editor with an egui/wgpu interface. It support
 
 The Thai catalog is embedded during compilation and works offline. Command IDs, image-processing behavior and document formats retain upstream's implementation. The macOS package includes Noto Sans Thai through the upstream font bundle. Select **PhotoCraft › Language › ไทย** to use Thai, or switch back to English from the same menu.
 
+### Available tools
+
+<h4>🧰 68 tools</h4>
+      Move · Artboard · Rectangular and Elliptical Marquee · Single Row Marquee · Single Column Marquee · Lasso · Polygonal Lasso · Magnetic Lasso · Object Selection · Quick Selection · Magic Wand · Crop · Perspective Crop · Slice · Slice Select · Frame · Eyedropper · Color Sampler · Ruler · Note · Count · Remove · Spot Healing Brush · Healing Brush · Patch · Content-Aware Move · Red Eye · Brush · Pencil · Mixer Brush · Color Replacement · Clone Stamp · Pattern Stamp · History Brush · Art History Brush · Eraser · Background Eraser · Magic Eraser · Gradient · Paint Bucket · Blur · Sharpen · Smudge · Dodge · Burn · Sponge · Pen · Freeform Pen · Curvature Pen · Add Anchor Point · Delete Anchor Point · Convert Point · Horizontal and Vertical Type · Horizontal and Vertical Type Mask · Path Selection · Direct Selection · Rectangle · Ellipse · Triangle · Polygon · Line · Custom Shape · Hand · Rotate View · Zoom
+
 ### Mac download
 
 [Download PhotoCraft TH 0.20.1-th.1 for Apple Silicon](https://github.com/tapanapon-com/photocraft-th/releases/download/v0.20.1-th.1/PhotoCraft-TH-0.20.1-th.1-macOS-arm64.dmg) — approximately 123 MiB, arm64 only, tested on macOS 26.3.1. Open the DMG and drag PhotoCraft to Applications. Save your work and quit any existing PhotoCraft installation before replacing it.

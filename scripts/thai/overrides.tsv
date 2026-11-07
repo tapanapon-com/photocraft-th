@@ -1,16 +1,23 @@
 # Reviewed Thai terminology; same context/source/translation format as the catalog.
-	Actions	แอ็กชัน
-	Action	แอ็กชัน
 	+ Add variable	+ เพิ่มตัวแปร
 	250%	250%
 	3-up Stacked	เรียงซ้อน 3 ช่อง
 	50% Threshold	ค่าเกณฑ์ 50%
+	@{login}: {prs} PRs, {commits} commits, +{added} / −{deleted} lines (Δ {delta}), +{binAdded} / −{binDeleted} binary assets, {first} – {last}	@{login}: {prs} PR, {commits} คอมมิต, เพิ่ม {added} / ลบ {deleted} บรรทัด (Δ {delta}), เพิ่ม {binAdded} / ลบ {binDeleted} ไฟล์ไบนารี, {first} – {last}
 	A brush preset with this name already exists	มีค่าที่ตั้งไว้ของแปรงชื่อนี้อยู่แล้ว
+	A file is still being placed; try again when it has finished.	กำลังวางไฟล์อยู่ โปรดลองอีกครั้งเมื่อเสร็จแล้ว
+	A frame supports affine transforms; select its image for perspective transforms	เฟรมรองรับการแปลงแบบแอฟไฟน์ หากต้องการปรับเพอร์สเปกทีฟ ให้เลือกภาพในเฟรม
+	A frame supports affine transforms; select its image to warp it	เฟรมรองรับการแปลงแบบแอฟไฟน์ หากต้องการบิดภาพ ให้เลือกภาพในเฟรม
+	A picked document is no longer a grayscale document of the same size.	เอกสารที่เลือกไม่ใช่เอกสารโทนสีเทาที่มีขนาดเท่ากันแล้ว
+	A picked document is no longer open.	เอกสารที่เลือกไม่ได้เปิดอยู่แล้ว
 	A save to {name} is still running; try again when it finishes	กำลังบันทึกไปยัง {name} โปรดลองอีกครั้งเมื่อเสร็จ
 	AI Integrations	การเชื่อมต่อ AI
 	AI Integrations…	การเชื่อมต่อ AI…
 	Absolute	สัมบูรณ์
 	Absolute Colorimetric	การเทียบสีแบบสัมบูรณ์
+	Accelerated	เร่งความเร็ว
+	Action	แอ็กชัน
+	Actions	แอ็กชัน
 	Activate Panel	เปิดใช้งานแผง
 	Adaptive Wide Angle	มุมกว้างแบบปรับอัตโนมัติ
 	Adaptive Wide Angle…	มุมกว้างแบบปรับอัตโนมัติ…
@@ -35,19 +42,21 @@
 	Adjustment Layers	เลเยอร์ปรับแต่ง
 	Adjustment Preview	แสดงตัวอย่างการปรับแต่ง
 	Adjustment Properties	คุณสมบัติการปรับแต่ง
+	Adobe Every-line Composer	ระบบจัดข้อความทุกบรรทัด Adobe
+	Adobe PDF Presets…	ค่าที่ตั้งไว้สำหรับ Adobe PDF…
+	Adobe RGB (1998) compatible	เข้ากันได้กับ Adobe RGB (1998)
+	Adobe Single-line Composer	ระบบจัดข้อความทีละบรรทัด Adobe
 	Advanced Blending	การผสมสีขั้นสูง
 	Advanced Controls	ตัวควบคุมขั้นสูง
+	Adwaita (Dark)	Adwaita (มืด)
+	Adwaita (Light)	Adwaita (สว่าง)
+	Adwaita Dark Theme	ธีม Adwaita มืด
 	Align and Distribute	จัดแนวและกระจาย
 	Align horizontal centers	จัดแนวกึ่งกลางตามแนวนอน
 	Align vertical centers	จัดแนวกึ่งกลางตามแนวตั้ง
+	All shortcuts reset to PhotoCraft defaults.	รีเซ็ตแป้นพิมพ์ลัดทั้งหมดเป็นค่าเริ่มต้นของ PhotoCraft แล้ว
+	All shortcuts reset to Photoshop defaults.	รีเซ็ตแป้นพิมพ์ลัดทั้งหมดเป็นค่าเริ่มต้นของ Photoshop แล้ว
 	Allow agent control	อนุญาตให้เอเจนต์ควบคุม
-	Blend Mode	โหมดผสมสี
-	Blending Mode	โหมดผสมสี
-	Black & White	ขาวดำ
-	Brush Size	ขนาดแปรง
-	Browse	เรียกดู
-	Brush Strokes	รอยแปรง
-	Baseline	เส้นฐาน
 	Anamorphic 2:1 (2)	อะนามอร์ฟิก 2:1 (2)
 	Anchor:	จุดยึด:
 	Angle Gradient	ไล่ระดับสีแบบมุม
@@ -62,10 +71,10 @@
 	Aperture	รูรับแสง
 	Applies at next launch.	มีผลเมื่อเปิดแอปครั้งถัดไป
 	Applies immediately when saved. Memory is not reserved in advance.	มีผลทันทีเมื่อบันทึก โดยไม่จองหน่วยความจำล่วงหน้า
+	Apply Layer Comp	ใช้เลเยอร์คอมป์
 	Apply Per Tip	ใช้กับปลายแปรงแต่ละจุด
 	Apply next selected layer comp	ใช้เลเยอร์คอมป์ที่เลือกถัดไป
 	Apply previous selected layer comp	ใช้เลเยอร์คอมป์ที่เลือกก่อนหน้า
-	Apply Layer Comp	ใช้เลเยอร์คอมป์
 	Apply the pen's tilt and rotation to the tip shape	ใช้การเอียงและการหมุนของปากกากับรูปทรงปลายแปรง
 	Aqua	ฟ้าอมเขียว
 	Arbitrary	กำหนดเอง
@@ -76,8 +85,6 @@
 	Arch	โค้งนูน
 	Art History Brush	แปรงประวัติศิลป์
 	Art History Brush Tool	เครื่องมือแปรงประวัติศิลป์
-	All shortcuts reset to PhotoCraft defaults.	รีเซ็ตแป้นพิมพ์ลัดทั้งหมดเป็นค่าเริ่มต้นของ PhotoCraft แล้ว
-	All shortcuts reset to Photoshop defaults.	รีเซ็ตแป้นพิมพ์ลัดทั้งหมดเป็นค่าเริ่มต้นของ Photoshop แล้ว
 	Auto collapse icon panels	ยุบแผงไอคอนอัตโนมัติ
 	Auto show hidden panels	แสดงแผงที่ซ่อนอัตโนมัติ
 	Auto-Align Layers	จัดแนวเลเยอร์อัตโนมัติ
@@ -93,10 +100,12 @@
 	Avoid Widows/Orphans	หลีกเลี่ยงบรรทัดโดดต้นหรือท้ายย่อหน้า
 	BLANK DOCUMENT PRESETS ({n})	ค่าที่ตั้งไว้สำหรับเอกสารเปล่า ({n})
 	Backend: {backend} ({type})	ระบบประมวลผล: {backend} ({type})
+	Background (default)	พื้นหลัง (ค่าเริ่มต้น)
 	Background From Layer	สร้างพื้นหลังจากเลเยอร์
 	Background from Layer	สร้างพื้นหลังจากเลเยอร์
 	Bamboo	ไผ่
 	Bas Relief	ภาพนูนต่ำ
+	Baseline	เส้นฐาน
 	Baseline ("Standard")	เบสไลน์ ("มาตรฐาน")
 	Baseline Optimized	เบสไลน์แบบปรับให้เหมาะสม
 	Baseline shift	เลื่อนเส้นฐาน
@@ -106,9 +115,12 @@
 	Berries	ผลเบอร์รี
 	Bevel & Emboss	ขอบลาดและปั๊มนูน
 	Bevel & Emboss…	ขอบลาดและปั๊มนูน…
+	Black & White	ขาวดำ
 	Blend Clipped Layers as Group	ผสมเลเยอร์ที่คลิปเป็นกลุ่ม
 	Blend Interior Effects as Group	ผสมเอฟเฟกต์ภายในเป็นกลุ่ม
+	Blend Mode	โหมดผสมสี
 	Blend Text Gamma	แกมมาการผสมสีข้อความ
+	Blending Mode	โหมดผสมสี
 	Blur Gallery	แกลเลอรีเบลอ
 	Bold Italic	ตัวหนาเอียง
 	Brick	อิฐ
@@ -117,11 +129,14 @@
 	Brightness/Contrast…	ความสว่าง/คอนทราสต์…
 	Bring the selected pin forward	เลื่อนหมุดที่เลือกมาด้านหน้า
 	Bristle Detail	รายละเอียดขนแปรง
+	Browse	เรียกดู
 	Brush Preset Options	ตัวเลือกค่าที่ตั้งไว้ของแปรง
 	Brush Preset picker	ตัวเลือกค่าที่ตั้งไว้ของแปรง
+	Brush Size	ขนาดแปรง
+	Brush Stroke	รอยแปรง
+	Brush Strokes	รอยแปรง
 	Brush Tip	ปลายแปรง
 	Brush Tip Shape	รูปทรงปลายแปรง
-	Brush Stroke	รอยแปรง
 	Bundle Arrow-Key Nudges	รวมการขยับด้วยปุ่มลูกศรเป็นขั้นตอนเดียว
 	Burlap	ผ้ากระสอบ
 	Burn	ลดแสง
@@ -129,6 +144,7 @@
 	Butt / Flat	ปลายตัด / แบน
 	Calibration	การปรับเทียบ
 	Camera Calibration	การปรับเทียบกล้อง
+	Cancelled placing {name}	ยกเลิกการวาง {name} แล้ว
 	Caps	รูปแบบปลายเส้น
 	Capture Comp	บันทึกเลเยอร์คอมป์
 	Capture the visibility, position and style of every layer with + below, then switch between versions.	บันทึกการแสดงผล ตำแหน่ง และสไตล์ของทุกเลเยอร์ด้วยปุ่ม + ด้านล่าง แล้วสลับระหว่างเวอร์ชัน
@@ -141,16 +157,21 @@
 	Chalk Area	พื้นที่ชอล์ก
 	Change Panel Group	เปลี่ยนกลุ่มแผง
 	Change Panel Layout	เปลี่ยนการจัดวางแผง
-	Clear Brush Strokes	ล้างรอยแปรง
-	Clear Selected Artboard Guides	ล้างเส้นไกด์ของอาร์ตบอร์ดที่เลือก
-	Clear Selection	ล้างพื้นที่เลือก
-	Clean Brush	ทำความสะอาดแปรง
+	Channel Options…	ตัวเลือกช่องสี…
+	Check Again	ตรวจสอบอีกครั้ง
+	Checking for updates…	กำลังตรวจสอบอัปเดต…
 	Chisel Hard	สกัดแบบแข็ง
 	Chisel Soft	สกัดแบบนุ่ม
 	Chrome	โครเมียม
+	Clean Brush	ทำความสะอาดแปรง
+	Clear Brush Strokes	ล้างรอยแปรง
+	Clear Recent File List	ล้างรายการไฟล์ล่าสุด
+	Clear Selected Artboard Guides	ล้างเส้นไกด์ของอาร์ตบอร์ดที่เลือก
+	Clear Selection	ล้างพื้นที่เลือก
+	Click a red pupil to neutralize it	คลิกที่รูม่านตาสีแดงเพื่อลดตาแดง
 	Click to sample the foreground colour  ·  {key}-click for background	คลิกเพื่อดูดสีพื้นหน้า · กด {key} พร้อมคลิกเพื่อดูดสีพื้นหลัง
 	Click with the Note tool to add a note.	คลิกด้วยเครื่องมือบันทึกย่อเพื่อเพิ่มบันทึกย่อ
-	Click a red pupil to neutralize it	คลิกที่รูม่านตาสีแดงเพื่อลดตาแดง
+	Clip Thumbnails to Document Bounds	ตัดภาพขนาดย่อให้พอดีขอบเขตเอกสาร
 	Collapse All Groups	ยุบกลุ่มทั้งหมด
 	Collapse Panel Group	ยุบกลุ่มแผง
 	Collapse group  ({key}-click: all groups)	ยุบกลุ่ม ({key}-คลิก: ทุกกลุ่ม)
@@ -163,24 +184,31 @@
 	Color Halftone…	ฮาล์ฟโทนสี…
 	Color Picker (Foreground Color)	ตัวเลือกสี (สีพื้นหน้า)
 	Color Picker (Solid Color)	ตัวเลือกสี (สีพื้น)
+	Color Wheel	วงล้อสี
+	ColorMatch RGB	ColorMatch RGB
+	ColorSync	ColorSync
+	Commit warp ({key})	ยืนยันการบิดรูปทรง ({key})
 	Condensed	แบบแคบ
+	Consolidate All to Here	รวมทั้งหมดไว้ที่นี่
 	Constrain proportions	คงสัดส่วน
 	Contact Sheet II	แผ่นรวมภาพ II
 	Contact Sheet II…	แผ่นรวมภาพ II…
 	Content-Aware	ตามเนื้อหาภาพ
 	Content-Aware Fill	เติมสีตามเนื้อหาภาพ
-	Content-Aware Fill…	เติมสีตามเนื้อหาภาพ…
 	Content-Aware Fill needs a selection on a pixel layer	การเติมสีตามเนื้อหาภาพต้องมีพื้นที่เลือกบนเลเยอร์พิกเซล
+	Content-Aware Fill…	เติมสีตามเนื้อหาภาพ…
 	Content-Aware Move	ย้ายตามเนื้อหาภาพ
 	Content-Aware Move Tool	เครื่องมือย้ายตามเนื้อหาภาพ
 	Content-Aware Scale	ปรับขนาดตามเนื้อหาภาพ
-	Control port	พอร์ตควบคุม
 	Contributors: {contributors} · Commits: {commits}	ผู้ร่วมพัฒนา: {contributors} · คอมมิต: {commits}
-	Convert to Layers	แปลงเป็นเลเยอร์
+	Control port	พอร์ตควบคุม
 	Convert to Embedded	แปลงเป็นแบบฝัง
+	Convert to Frame…	แปลงเป็นเฟรม…
+	Convert to Layers	แปลงเป็นเลเยอร์
 	Copies	จำนวนสำเนา
 	Copy Texture to Other Tools	คัดลอกพื้นผิวไปยังเครื่องมืออื่น
 	Correct Vignette	แก้ไขขอบมืด
+	Could not check for updates.	ไม่สามารถตรวจสอบอัปเดตได้
 	Could not complete the Free Transform command because the layer is locked.	ไม่สามารถแปลงรูปทรงแบบอิสระได้ เนื่องจากเลเยอร์ถูกล็อก
 	Could not rename the action: {error}	เปลี่ยนชื่อแอ็กชันไม่สำเร็จ: {error}
 	Could not use Puppet Warp: no opaque pixels	ใช้การบิดแบบหุ่นเชิดไม่ได้: ไม่มีพิกเซลทึบแสง
@@ -195,13 +223,17 @@
 	Create Plane	สร้างระนาบ
 	Create Warped Text	สร้างข้อความบิดโค้ง
 	Create a new count group	สร้างกลุ่มการนับใหม่
-	Create new count group	สร้างกลุ่มการนับใหม่
+	Create a new custom frame	สร้างเฟรมกำหนดเองใหม่
 	Create a new elliptical frame	สร้างกรอบวงรีใหม่
+	Create a new polygonal frame	สร้างเฟรมรูปหลายเหลี่ยมใหม่
+	Create a new triangular frame	สร้างเฟรมรูปสามเหลี่ยมใหม่
+	Create a single history state	สร้างสถานะประวัติเพียงสถานะเดียว
 	Create new brush preset from the current settings	สร้างค่าที่ตั้งไว้ของแปรงจากการตั้งค่าปัจจุบัน
+	Create new count group	สร้างกลุ่มการนับใหม่
 	Create new gradient	สร้างไล่ระดับสีใหม่
-	Current Brush Load	สีที่อยู่บนแปรงปัจจุบัน
 	Current & Below	เลเยอร์ปัจจุบันและด้านล่าง
 	Current & Below No Adjustments	เลเยอร์ปัจจุบันและด้านล่างโดยไม่รวมการปรับแต่ง
+	Current Brush Load	สีที่อยู่บนแปรงปัจจุบัน
 	Cursors	เคอร์เซอร์
 	Cursors…	เคอร์เซอร์…
 	Curvature Pen Tool	เครื่องมือปากกาเส้นโค้ง
@@ -230,9 +262,9 @@
 	Delete All Empty Layers	ลบเลเยอร์ว่างทั้งหมด
 	Delete Anchor Point Tool	เครื่องมือลบจุดยึด
 	Delete Shortcut	ลบแป้นพิมพ์ลัด
+	Delete Tool Preset	ลบค่าที่ตั้งไว้ของเครื่องมือ
 	Delete layer comp	ลบเลเยอร์คอมป์
 	Delete tool preset	ลบค่าที่ตั้งไว้ของเครื่องมือ
-	Delete Tool Preset	ลบค่าที่ตั้งไว้ของเครื่องมือ
 	Demosaic	ดีโมเสก
 	Depth Jitter	ความแปรผันของความลึก
 	Desaturate Monitor Colors By	ลดความอิ่มสีของจอภาพลง
@@ -245,9 +277,9 @@
 	Discretionary Ligatures	อักษรควบทางเลือก
 	Display P3	Display P3
 	Display p3	Display p3
-	Display-p3	Display-p3
 	Display profile not used	ไม่ได้ใช้โปรไฟล์จอภาพ
 	Display profiles: {reason}	โปรไฟล์จอภาพ: {reason}
+	Display-p3	Display-p3
 	Dither	ดิเทอร์
 	Documentation	คู่มือ
 	Domed (Inverted)	รูปโดม (กลับด้าน)
@@ -258,8 +290,11 @@
 	Drag a box or click four corners · drag the corners onto the edges of a skewed shape · {commit} commits · Esc cancels	ลากกรอบหรือคลิกมุมทั้งสี่ · ลากมุมให้ตรงกับขอบรูปทรงที่เอียง · {commit} ยืนยัน · Esc ยกเลิก
 	Drag the arrow to set the angle, the dots to set the roundness	ลากลูกศรเพื่อกำหนดมุม ลากจุดเพื่อกำหนดความกลม
 	Drag the pin to move the band, or its ring to change its blur. Drag the solid lines to widen the sharp band, the dashed lines to set the transition, and the dots to turn it.	ลากหมุดเพื่อย้ายแถบ หรือลากวงแหวนเพื่อปรับความเบลอ ลากเส้นทึบเพื่อขยายแถบที่คมชัด เส้นประเพื่อกำหนดช่วงเปลี่ยนผ่าน และจุดเพื่อหมุนแถบ
+	Driver: {driver}	ไดรเวอร์: {driver}
 	Drop Shadow…	เงาตกกระทบ…
 	Drop shadow	เงาตกกระทบ
+	Dropped files weren't placed: their document was closed.	ไม่ได้วางไฟล์ที่ลากมา เนื่องจากเอกสารปลายทางปิดไปแล้ว
+	Dropped files weren't placed: too many are waiting for their document.	ไม่ได้วางไฟล์ที่ลากมา เนื่องจากมีไฟล์รอเอกสารปลายทางมากเกินไป
 	Dynamic color sliders	แถบเลื่อนสีแบบไดนามิก
 	East Asian Features	คุณลักษณะอักษรเอเชียตะวันออก
 	Edit Plane	แก้ไขระนาบ
@@ -268,6 +303,8 @@
 	Edit › Paste	แก้ไข › วาง
 	Edits that change the whole document, such as a layer's blend mode, opacity or visibility, redraw all of it.	การแก้ไขที่มีผลต่อทั้งเอกสาร เช่น โหมดผสมสี ความทึบ หรือการแสดงผลของเลเยอร์ จะวาดเอกสารใหม่ทั้งหมด
 	Elliptical Marquee Tool	เครื่องมือเลือกแบบวงรี
+	Embed All Linked	ฝังรายการที่เชื่อมโยงทั้งหมด
+	Embed Linked	ฝังรายการที่เชื่อมโยง
 	Emboss…	ปั๊มนูน…
 	Emulsion Down	ด้านอิมัลชันคว่ำลง
 	Enable Layer Mask	เปิดใช้งานมาสก์เลเยอร์
@@ -278,11 +315,12 @@
 	Enable flick panning	เปิดการสะบัดเพื่อเลื่อนภาพ
 	Even Fields	ฟิลด์คู่
 	Export Presets	ส่งออกค่าที่ตั้งไว้
+	Exposure	การรับแสง
 	Exposure and Gamma	การรับแสงและแกมมา
 	Extensions	ส่วนขยาย
 	Extra Bold	หนาพิเศษ
-	ExtraBold	หนาพิเศษ
 	Extra Light	บางพิเศษ
+	ExtraBold	หนาพิเศษ
 	ExtraLight	บางพิเศษ
 	Eyedropper	หลอดดูดสี
 	Eyedropper Tool	เครื่องมือหลอดดูดสี
@@ -299,17 +337,21 @@
 	Fill with Foreground Color	เติมด้วยสีพื้นหน้า
 	Fill with Foreground Color, Preserve Transparency	เติมด้วยสีพื้นหน้าโดยคงความโปร่งใส
 	Film Grain	เกรนฟิล์ม
+	Filter	ฟิลเตอร์
 	Filter Gallery	แกลเลอรีฟิลเตอร์
 	Filter Gallery…	แกลเลอรีฟิลเตอร์…
 	Find Layers	ค้นหาเลเยอร์
+	Finish	เสร็จสิ้น
 	First Line Indent	ระยะเยื้องบรรทัดแรก
 	Fish	ปลา
 	Fisheye	ฟิชอาย
 	Fit Artboard on Screen	แสดงอาร์ตบอร์ดให้พอดีหน้าจอ
-	Fit Layer on Screen	แสดงเลเยอร์ให้พอดีหน้าจอ
-	Fit Layer(s) on Screen	แสดงเลเยอร์ให้พอดีหน้าจอ
+	Fit Content to Frame	ปรับเนื้อหาให้พอดีเฟรม
+	Fit Frame to Content	ปรับเฟรมให้พอดีเนื้อหา
 	Fit Image	ปรับภาพให้พอดี
 	Fit Image…	ปรับภาพให้พอดี…
+	Fit Layer on Screen	แสดงเลเยอร์ให้พอดีหน้าจอ
+	Fit Layer(s) on Screen	แสดงเลเยอร์ให้พอดีหน้าจอ
 	Fit Screen	พอดีหน้าจอ
 	Fit in View	พอดีมุมมอง
 	Fit on Screen	พอดีหน้าจอ
@@ -329,6 +371,7 @@
 	Foreground Level	ระดับสีพื้นหน้า
 	Foreground to Background	สีพื้นหน้าไปยังสีพื้นหลัง
 	Foreground/Background Jitter	ความแปรผันของสีพื้นหน้า/พื้นหลัง
+	Frame coordinates must be finite and within 600000 pixels	พิกัดเฟรมต้องเป็นจำนวนจำกัดและอยู่ภายใน 600000 พิกเซล
 	Free	อิสระ
 	Free Transform	แปลงรูปทรงแบบอิสระ
 	Free Transform Path	แปลงพาธแบบอิสระ
@@ -341,15 +384,16 @@
 	Fuchsia	ชมพูบานเย็น
 	Full Spherical	ทรงกลมเต็ม
 	Full size tip	ปลายแปรงขนาดเต็ม
+	Gamma:	แกมมา:
 	Gamut warning opacity	ความทึบของคำเตือนขอบเขตสี
 	Gaussian	เกาส์เซียน
 	Gaussian Blur…	เบลอแบบเกาส์เซียน…
-	Gamma:	แกมมา:
-	Golden Spiral	เกลียวทอง
+	Generator enabled	เปิดใช้งาน Generator แล้ว
 	Glyph	รูปอักษร
+	Glyph Scaling	ปรับขนาดรูปอักษร
 	Glyphs	รูปอักษร
 	Glyphs Panel	แผงรูปอักษร
-	Glyph Scaling	ปรับขนาดรูปอักษร
+	Golden Spiral	เกลียวทอง
 	Gradient Editor	ตัวแก้ไขไล่ระดับสี
 	Gradient Map	แมปไล่ระดับสี
 	Gradient Map…	แมปไล่ระดับสี…
@@ -360,27 +404,25 @@
 	Gradient Tool	เครื่องมือไล่ระดับสี
 	Gradient picker	ตัวเลือกไล่ระดับสี
 	Gradient stops	จุดสีของไล่ระดับสี
+	Gradient-corrected interpolation: sharp and fast, with some colour fringing on fine detail.	การประมาณค่าที่แก้ไขด้วยเกรเดียนต์: คมชัดและรวดเร็ว แต่อาจมีขอบสีในรายละเอียดเล็ก
 	Gradients	ไล่ระดับสี
 	Gradient…	ไล่ระดับสี…
-	Gradient-corrected interpolation: sharp and fast, with some colour fringing on fine detail.	การประมาณค่าที่แก้ไขด้วยเกรเดียนต์: คมชัดและรวดเร็ว แต่อาจมีขอบสีในรายละเอียดเล็ก
 	Grain	เกรน
 	Grain Amount	ปริมาณเกรน
 	Grain Roughness	ความหยาบของเกรน
 	Grain Type	ประเภทเกรน
+	Group	กลุ่ม
 	Group Layer	จัดกลุ่มเลเยอร์
 	Group Layers	จัดกลุ่มเลเยอร์
 	Group from Layers	สร้างกลุ่มจากเลเยอร์
 	Group from Layers…	สร้างกลุ่มจากเลเยอร์…
 	Grout Width	ความกว้างร่องยาแนว
 	Hanging Punctuation	เครื่องหมายวรรคตอนยื่นนอกขอบ
+	Hard Light	แสงเข้ม
 	Hardness	ความแข็ง
 	Hardness:	ความแข็ง:
 	Heal Off	ปิดการซ่อมแซม
 	Heal On	เปิดการซ่อมแซม
-	Color Wheel	วงล้อสี
-	ColorMatch RGB	ColorMatch RGB
-	ColorSync	ColorSync
-	Commit warp ({key})	ยืนยันการบิดรูปทรง ({key})
 	Heptagon	เจ็ดเหลี่ยม
 	Hide Font Classes	ซ่อนหมวดฟอนต์
 	Hide the layer's effects  ({key}-click: all layers)	ซ่อนเอฟเฟกต์ของเลเยอร์ ({key}-คลิก: ทุกเลเยอร์)
@@ -388,6 +430,9 @@
 	High Pass…	ไฮพาส…
 	High Quality Preview	ตัวอย่างคุณภาพสูง
 	How the camera's colour filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	วิธีเติมข้อมูลโมเสกฟิลเตอร์สีของกล้อง ใช้เมื่อเปิดไฟล์ โดยภาพตัวอย่างแสดงวิธีที่ใช้ตอนเปิดไฟล์
+	Hsl Hue	เฉดสี HSL
+	Hsl Lum	ความสว่าง HSL
+	Hsl Sat	ความอิ่มสี HSL
 	Hue Cube	ลูกบาศก์เฉดสี
 	Hue Jitter	ความแปรผันของเฉดสี
 	Hue/Saturation	เฉดสี/ความอิ่มสี
@@ -398,21 +443,11 @@
 	Image Processor	ประมวลผลภาพ
 	Image Processor…	ประมวลผลภาพ…
 	Image interpolation	การประมาณค่าพิกเซลภาพ
+	Import Image…	นำเข้าภาพ…
 	Import Presets	นำเข้าค่าที่ตั้งไว้
 	Import Shortcuts…	นำเข้าแป้นพิมพ์ลัด…
 	Import keyboard shortcuts?	นำเข้าแป้นพิมพ์ลัดหรือไม่?
 	Imported {n} shortcuts from {file}. Click OK to keep them.	นำเข้าแป้นพิมพ์ลัด {n} รายการจาก {file} แล้ว คลิกตกลงเพื่อเก็บไว้
-	Adobe PDF Presets…	ค่าที่ตั้งไว้สำหรับ Adobe PDF…
-	Adobe RGB (1998) compatible	เข้ากันได้กับ Adobe RGB (1998)
-	Adwaita (Dark)	Adwaita (มืด)
-	Adwaita (Light)	Adwaita (สว่าง)
-	Adwaita Dark Theme	ธีม Adwaita มืด
-	Driver: {driver}	ไดรเวอร์: {driver}
-	Finish	เสร็จสิ้น
-	Intent	วิธีแปลงสี
-	Hsl Hue	เฉดสี HSL
-	Hsl Lum	ความสว่าง HSL
-	Hsl Sat	ความอิ่มสี HSL
 	Inches	นิ้ว
 	Indent First	เยื้องบรรทัดแรก
 	Indent Left	เยื้องซ้าย
@@ -429,13 +464,18 @@
 	Input Levels	ระดับอินพุต
 	Input Mode	โหมดอินพุต
 	Installed RAM: {ram} MB; this limit: {percent}%	RAM ที่ติดตั้ง: {ram} MB; ขีดจำกัดนี้: {percent}%
+	Installed version: {version}	รุ่นที่ติดตั้ง: {version}
+	Intent	วิธีแปลงสี
 	Interlaced	แบบสลับเส้น
+	Internet Standard RGB (sRGB)	RGB มาตรฐานอินเทอร์เน็ต (sRGB)
 	Interpolation:	การประมาณค่า:
 	Intersect Mask with Selection	เลือกส่วนซ้อนทับระหว่างมาสก์กับพื้นที่เลือก
 	Intersect Shape Areas	เลือกส่วนซ้อนทับของรูปทรง
 	Intersect with	เลือกส่วนซ้อนทับกับ
 	Intersect with selection  ({key})	เลือกส่วนซ้อนทับกับพื้นที่เลือก ({key})
 	Intersect with selection  (⇧⌥)	เลือกส่วนซ้อนทับกับพื้นที่เลือก (⇧⌥)
+	Invalid frame transform	การแปลงเฟรมไม่ถูกต้อง
+	Invalid nested file drop	การวางไฟล์ซ้อนกันไม่ถูกต้อง
 	Iris Blur	เบลอแบบไอริส
 	Iris Blur…	เบลอแบบไอริส…
 	Its layers need {needed} of GPU memory; the budget leaves them {budget}.	เลเยอร์ต้องใช้หน่วยความจำ GPU {needed} แต่ขีดจำกัดเหลือให้ใช้ {budget}
@@ -452,25 +492,29 @@
 	Keyboard shortcuts imported	นำเข้าแป้นพิมพ์ลัดแล้ว
 	Knockout	เจาะทะลุ
 	Kurtosis	ความโด่ง
+	Large Thumbnails	ภาพขนาดย่อขนาดใหญ่
 	Layer Mask Hides Effects	มาสก์เลเยอร์ซ่อนเอฟเฟกต์
+	Learn	เรียนรู้
 	Leaves Amount	จำนวนใบไม้
 	Leaves Color	สีใบไม้
 	Leaves Size	ขนาดใบไม้
 	Left Diagonal	แนวทแยงซ้าย
 	Left-to-right paragraph direction	ทิศทางย่อหน้าจากซ้ายไปขวา
+	Legacy Macintosh RGB (Gamma 1.8)	Macintosh RGB แบบเดิม (แกมมา 1.8)
 	Legal	กระดาษ Legal
-	Letter	กระดาษ Letter
 	Lens Correction	แก้ไขความคลาดเคลื่อนเลนส์
 	Lens Corrections	แก้ไขความคลาดเคลื่อนเลนส์
 	Lens Correction…	แก้ไขความคลาดเคลื่อนเลนส์…
+	Letter	กระดาษ Letter
 	Library	คลัง
 	Ligature	อักษรควบ
 	Lighten Interface	ปรับอินเทอร์เฟซให้สว่างขึ้น
 	Lighting Effects…	เอฟเฟกต์แสง…
 	Linear Dodge	เพิ่มแสงแบบเชิงเส้น
+	Little memory would be left after opening this file. Close other apps first, or PhotoCraft may run out of memory.	หลังเปิดไฟล์นี้จะเหลือหน่วยความจำน้อย โปรดปิดแอปอื่นก่อน มิฉะนั้น PhotoCraft อาจมีหน่วยความจำไม่เพียงพอ
+	Load Brush	เติมสีให้แปรง
 	Load Default Type Styles	โหลดสไตล์ข้อความเริ่มต้น
 	Load a keyboard shortcut set saved as .kys	โหลดชุดแป้นพิมพ์ลัดที่บันทึกเป็น .kys
-	Load Brush	เติมสีให้แปรง
 	Load the brush after each stroke	เติมสีให้แปรงหลังวาดแต่ละรอย
 	Loading fonts…	กำลังโหลดฟอนต์…
 	Lock	ล็อก
@@ -483,8 +527,8 @@
 	Magnetic Lasso	บ่วงแม่เหล็ก
 	Magnetic Lasso Tool	เครื่องมือบ่วงแม่เหล็ก
 	Make Landscape	เปลี่ยนเป็นแนวนอน
-	Make Portrait	เปลี่ยนเป็นแนวตั้ง
 	Make Layer Visibility Changes Undoable	อนุญาตให้เลิกทำการเปลี่ยนการแสดงเลเยอร์
+	Make Portrait	เปลี่ยนเป็นแนวตั้ง
 	Make Ramp Web Safe	ปรับแถบสีให้ใช้สีมาตรฐานเว็บ
 	Make Work Path	สร้างพาธทำงาน
 	Make Work Path…	สร้างพาธทำงาน…
@@ -504,6 +548,8 @@
 	Maximize psd compatibility	เพิ่มความเข้ากันได้ของ PSD ให้สูงสุด
 	Median:	มัธยฐาน:
 	Median…	มัธยฐาน…
+	Medium Thumbnails	ภาพขนาดย่อขนาดกลาง
+	Message	ข้อความ
 	Middle Eastern & South Asian Composer	ระบบจัดข้อความตะวันออกกลางและเอเชียใต้
 	Middle Eastern Features	คุณลักษณะอักษรตะวันออกกลาง
 	Midtone	โทนกลาง
@@ -519,22 +565,32 @@
 	Move effect layer down	ย้ายเลเยอร์เอฟเฟกต์ลง
 	Move effect layer up	ย้ายเลเยอร์เอฟเฟกต์ขึ้น
 	Move effect up	ย้ายเอฟเฟกต์ขึ้น
+	Move to New Window	ย้ายไปหน้าต่างใหม่
 	Navigator	ตัวนำทาง
 	Neon Glow	เรืองแสงนีออน
 	Neutralize	ปรับให้เป็นกลาง
 	New Adjustment Layer	เลเยอร์ปรับแต่งใหม่
+	New Document…	เอกสารใหม่…
+	New Frame	เฟรมใหม่
 	New effect layer	เลเยอร์เอฟเฟกต์ใหม่
+	New file	ไฟล์ใหม่
+	No Thumbnails	ไม่แสดงภาพขนาดย่อ
 	No favorite fonts yet: click the star beside a font to add it.	ยังไม่มีฟอนต์ที่ชื่นชอบ คลิกดาวข้างฟอนต์เพื่อเพิ่ม
 	No fonts match these filters.	ไม่มีฟอนต์ที่ตรงกับตัวกรองเหล่านี้
 	No similar fonts: the current font doesn't say what it looks like.	ไม่พบฟอนต์ที่คล้ายกัน เนื่องจากฟอนต์ปัจจุบันไม่มีข้อมูลลักษณะของฟอนต์
+	Not enough grayscale documents for this mode.	เอกสารโทนสีเทาไม่เพียงพอสำหรับโหมดนี้
 	Note Paper	กระดาษบันทึก
+	Nudge	เลื่อนทีละน้อย
 	Nudge Bundle Pause (ms)	ช่วงพักเพื่อรวมการขยับเป็นขั้นตอนเดียว (ms)
 	Odd Fields	ฟิลด์คี่
 	Oil Paint	สีน้ำมัน
 	Oil Paint…	สีน้ำมัน…
+	On your computer	บนคอมพิวเตอร์ของคุณ
 	Onion Skin	ภาพซ้อนแบบกระดาษไข
 	Opacity Jitter	ความแปรผันของความทึบ
 	Opacity Threshold	ค่าเกณฑ์ความทึบ
+	Open Document…	เปิดเอกสาร…
+	Open Download Page	เปิดหน้าดาวน์โหลด
 	Optical	ตามสายตา
 	Ornaments	ลวดลายประดับ
 	Out Black	ระดับดำเอาต์พุต
@@ -561,13 +617,23 @@
 	Pattern Stamp	ตราประทับลวดลาย
 	Pattern Stamp Tool	เครื่องมือตราประทับลวดลาย
 	Pause	หยุดชั่วคราว
+	Pause For	หยุดชั่วคราวเป็นเวลา
+	Pause For:	หยุดชั่วคราวเป็นเวลา:
 	Pen	ปากกา
 	Pen Pressure	แรงกดปากกา
+	PhotoCraft Updates	อัปเดต PhotoCraft
+	PhotoCraft is up to date.	PhotoCraft เป็นรุ่นล่าสุดแล้ว
+	PhotoCraft {version} is available.	มี PhotoCraft {version} พร้อมให้ดาวน์โหลด
+	Pick a different document for each channel.	เลือกเอกสารที่แตกต่างกันสำหรับแต่ละช่องสี
 	Pillow Emboss	ปั๊มนูนแบบหมอน
 	Pin Depth:	ลำดับความลึกของหมุด:
 	Place Embedded	วางแบบฝัง
 	Place Embedded…	วางแบบฝัง…
 	Plastic Wrap	ห่อพลาสติก
+	Playback Options	ตัวเลือกการเล่น
+	Playback Options…	ตัวเลือกการเล่น…
+	Plugins	ปลั๊กอิน
+	Plugins…	ปลั๊กอิน…
 	Pointillize	แต้มจุดสี
 	Pointillize…	แต้มจุดสี…
 	Polar Coordinates	พิกัดเชิงขั้ว
@@ -611,16 +677,19 @@
 	Reflected Gradient	ไล่ระดับสีแบบสะท้อน
 	Relative Colorimetric	การเทียบสีแบบสัมพัทธ์
 	Release Clipping Mask	ยกเลิกคลิปปิงมาสก์
+	Release Notes	บันทึกประจำรุ่น
 	Reload Frame	โหลดเฟรมใหม่
 	Remove Planes	ลบระนาบ
 	Remove stop	ลบจุดสี
+	Replace Image…	แทนที่ภาพ…
 	Resolution: {dpi} pixels/inch	ความละเอียด: {dpi} พิกเซล/นิ้ว
 	Resolve Missing Fonts	แก้ไขฟอนต์ที่ขาดหาย
 	Resolve Missing Fonts…	แก้ไขฟอนต์ที่ขาดหาย…
 	Restore last viewed comp	คืนเลเยอร์คอมป์ที่ดูล่าสุด
 	Resume	ดำเนินการต่อ
-	Right-to-left paragraph direction	ทิศทางย่อหน้าจากขวาไปซ้าย
+	Reveal in Explorer	แสดงใน Explorer
 	Ridges	สันนูน
+	Right-to-left paragraph direction	ทิศทางย่อหน้าจากขวาไปซ้าย
 	Rope	เชือก
 	Rotate View	หมุนมุมมอง
 	Rotate View Tool	เครื่องมือหมุนมุมมอง
@@ -636,6 +705,7 @@
 	Rulers  (⌘R)	ไม้บรรทัด (⌘R)
 	Rulers & Grids	ไม้บรรทัดและกริด
 	Sandstone	หินทราย
+	Sans Serif	อักษรไม่มีเชิง
 	Sat	ความอิ่มสี
 	Satin	ซาติน
 	Satin…	ซาติน…
@@ -648,6 +718,7 @@
 	Scallops	ขอบหยักโค้ง
 	Scratch Sizes	ขนาดพื้นที่ทำงานชั่วคราว
 	Scratch disks	ดิสก์ทำงานชั่วคราว
+	Screen	สกรีน
 	Scrubby slider acceleration	อัตราเร่งการลากแถบเลื่อน
 	Search settings…	ค้นหาการตั้งค่า…
 	Select Inverse	กลับพื้นที่เลือก
@@ -656,6 +727,28 @@
 	Select a type layer to edit its character and paragraph settings.	เลือกเลเยอร์ข้อความเพื่อแก้ไขการตั้งค่าตัวอักษรและย่อหน้า
 	Sepia	ซีเปีย
 	Serif	อักษรมีเชิง
+	Set 	ชุด 
+	Set 1	ชุด 1
+	Set 10	ชุด 10
+	Set 11	ชุด 11
+	Set 12	ชุด 12
+	Set 13	ชุด 13
+	Set 14	ชุด 14
+	Set 15	ชุด 15
+	Set 16	ชุด 16
+	Set 17	ชุด 17
+	Set 18	ชุด 18
+	Set 19	ชุด 19
+	Set 2	ชุด 2
+	Set 20	ชุด 20
+	Set 3	ชุด 3
+	Set 4	ชุด 4
+	Set 5	ชุด 5
+	Set 6	ชุด 6
+	Set 7	ชุด 7
+	Set 8	ชุด 8
+	Set 9	ชุด 9
+	Set GPU Memory in Preferences › Performance to what your graphics card can hold, at most 3/8 of its memory. Automatic follows Memory Usage, within a quarter of this computer's memory and 3/8 of the card's, and doesn't count the document against a card whose memory is known. The status bar shows GPU Memory Full while they don't fit.	ตั้งหน่วยความจำ GPU ในการตั้งค่า › ประสิทธิภาพ ให้เหมาะกับการ์ดกราฟิก โดยไม่เกิน 3/8 ของหน่วยความจำการ์ด โหมดอัตโนมัติอิงการใช้หน่วยความจำ ภายในหนึ่งในสี่ของหน่วยความจำเครื่องและ 3/8 ของการ์ด และไม่นับเอกสารรวมในขีดจำกัดการ์ดเมื่อทราบขนาดหน่วยความจำของการ์ด แถบสถานะจะแสดงว่าหน่วยความจำ GPU เต็มเมื่อมีพื้นที่ไม่พอ
 	Set New Snapshot as Default	ตั้งสแนปช็อตใหม่เป็นค่าเริ่มต้น
 	Shear	เฉือนรูปทรง
 	Shear…	เฉือนรูปทรง…
@@ -671,6 +764,7 @@
 	Size Jitter	ความแปรผันของขนาด
 	Skewness	ความเบ้
 	Slices are locked (View › Lock Slices)	สไลซ์ถูกล็อก (มุมมอง › ล็อกสไลซ์)
+	Small Thumbnails	ภาพขนาดย่อขนาดเล็ก
 	Smart guide color	สีสมาร์ตไกด์
 	Smoothing	การปรับให้เรียบ
 	Smooth…	ปรับให้เรียบ…
@@ -686,9 +780,11 @@
 	Snowflakes	เกล็ดหิมะ
 	Solid Color	สีพื้น
 	Solid Color…	สีพื้น…
+	Source: {name}	แหล่งที่มา: {name}
 	Space	Space
 	Space After	ระยะหลังย่อหน้า
 	Space Before	ระยะก่อนย่อหน้า
+	Specify Channels:	ระบุช่องสี:
 	Spherize…	ทำให้เป็นทรงกลม…
 	Split at Playhead	แบ่งที่หัวอ่าน
 	Sponge	ฟองน้ำ
@@ -698,6 +794,7 @@
 	Stamp Down	ประทับสำเนาลงด้านล่าง
 	Stamp Visible	ประทับสำเนาเลเยอร์ที่แสดง
 	Standard Ligatures	อักษรควบมาตรฐาน
+	Step by Step	ทีละขั้นตอน
 	Stop Color	สีของจุดสี
 	Stop For Errors	หยุดเมื่อเกิดข้อผิดพลาด
 	Stops	จุดสี
@@ -707,20 +804,25 @@
 	Stroke Path	วาดเส้นตามพาธ
 	Stroke Path…	วาดเส้นตามพาธ…
 	Stroke path with brush	วาดตามพาธด้วยแปรง
+	Stylistic Sets	ชุดรูปแบบตัวอักษร
 	Subscript	ตัวห้อย
-	Superscript	ตัวยก
 	Summation	ผลรวม
+	Superscript	ตัวยก
 	System title bar	แถบชื่อหน้าต่างของระบบ
 	Take the shortcut from the other command and select it	ย้ายแป้นพิมพ์ลัดจากคำสั่งอื่นมาใช้และเลือก
 	Teal Orange	เขียวอมฟ้า-ส้ม
 	Tetrahedral	ทรงสี่หน้า
-	Set GPU Memory in Preferences › Performance to what your graphics card can hold, at most 3/8 of its memory. Automatic follows Memory Usage, within a quarter of this computer's memory and 3/8 of the card's, and doesn't count the document against a card whose memory is known. The status bar shows GPU Memory Full while they don't fit.	ตั้งหน่วยความจำ GPU ในการตั้งค่า › ประสิทธิภาพ ให้เหมาะกับการ์ดกราฟิก โดยไม่เกิน 3/8 ของหน่วยความจำการ์ด โหมดอัตโนมัติอิงการใช้หน่วยความจำ ภายในหนึ่งในสี่ของหน่วยความจำเครื่องและ 3/8 ของการ์ด และไม่นับเอกสารรวมในขีดจำกัดการ์ดเมื่อทราบขนาดหน่วยความจำของการ์ด แถบสถานะจะแสดงว่าหน่วยความจำ GPU เต็มเมื่อมีพื้นที่ไม่พอ
 	Text engine	ระบบจัดการข้อความ
 	Texture	พื้นผิว
 	Texture Coverage	การครอบคลุมพื้นผิว
 	Texture Each Tip	ใช้พื้นผิวกับปลายแปรงแต่ละจุด
+	The GPU compositor is still being prepared	กำลังเตรียมตัวประมวลผลการซ้อนภาพด้วย GPU
+	The History Brush source was deleted: set a new source in the History panel	แหล่งข้อมูลของแปรงประวัติถูกลบแล้ว ให้ตั้งแหล่งข้อมูลใหม่ในแผงประวัติ
 	The canvas on {display} is shown as sRGB. Choose a monitor profile in Edit › Color Settings.	ผืนภาพบน {display} แสดงเป็น sRGB เลือกโปรไฟล์จอภาพใน แก้ไข › ตั้งค่าสี
 	The current gradient (pick one in Window › Gradients)	ไล่ระดับสีปัจจุบัน (เลือกใน หน้าต่าง › ไล่ระดับสี)
+	The current scratch directory ({path}) doesn't report its free space, so PhotoCraft can't stop before it fills up, and large files get no extra room from it without a Scratch Size Limit. This warning applies to the current configuration; changes above take effect on Apply or OK. Set a limit or use a local disk.	ไดเรกทอรีดิสก์พักข้อมูลปัจจุบัน ({path}) ไม่รายงานพื้นที่ว่าง PhotoCraft จึงไม่สามารถหยุดก่อนพื้นที่เต็มได้ และไฟล์ขนาดใหญ่จะไม่ได้รับพื้นที่เพิ่มจากไดเรกทอรีนี้หากไม่กำหนดขีดจำกัดขนาดดิสก์พักข้อมูล คำเตือนนี้อ้างอิงการตั้งค่าที่ใช้อยู่ การเปลี่ยนแปลงด้านบนจะมีผลเมื่อกด นำไปใช้ หรือ ตกลง โปรดกำหนดขีดจำกัดหรือใช้ดิสก์ในเครื่อง
+	The frame is locked	เฟรมถูกล็อกอยู่
+	The frame is unavailable	เฟรมไม่พร้อมใช้งาน
 	The gradient the Gradient tool paints with	ไล่ระดับสีที่เครื่องมือไล่ระดับสีใช้วาด
 	The keyboard shortcut set was not imported: {error}	นำเข้าชุดแป้นพิมพ์ลัดไม่สำเร็จ: {error}
 	Threshold Level	ระดับค่าเกณฑ์
@@ -729,8 +831,8 @@
 	Tile All Horizontally	เรียงหน้าต่างทั้งหมดตามแนวนอน
 	Tile All Vertically	เรียงหน้าต่างทั้งหมดตามแนวตั้ง
 	Tile Horizontally	เรียงหน้าต่างตามแนวนอน
-	Tile Vertically	เรียงหน้าต่างตามแนวตั้ง
 	Tile Size	ขนาดไทล์
+	Tile Vertically	เรียงหน้าต่างตามแนวตั้ง
 	Tilt-Shift	ทิลต์ชิฟต์
 	Tilt-Shift…	ทิลต์ชิฟต์…
 	Tolerance:	ค่าความคลาดเคลื่อน:
@@ -743,9 +845,11 @@
 	Transparency Shapes Layer	ใช้ความโปร่งใสกำหนดรูปทรงเลเยอร์
 	Transparency Threshold	ค่าเกณฑ์ความโปร่งใส
 	Transparent	โปร่งใส
+	Transparent (default)	โปร่งใส (ค่าเริ่มต้น)
 	Trap	ขยายขอบสีเพื่อการพิมพ์
 	Trap…	ขยายขอบสีเพื่อการพิมพ์…
 	Trilinear	ไตรลิเนียร์
+	Type	ข้อความ
 	Type…	ข้อความ…
 	Ultra Bold	หนามาก
 	Underwater	ใต้น้ำ
@@ -756,16 +860,18 @@
 	Unlink the mask from the layer	ยกเลิกการเชื่อมมาสก์กับเลเยอร์
 	Unsharp Mask…	เพิ่มความคมชัดแบบอันชาร์ปมาสก์…
 	Untitled-1	ไม่มีชื่อ-1
+	Update and Restart	อัปเดตแล้วเริ่มใหม่
 	Update layer comp (visibility, position and appearance)	อัปเดตเลเยอร์คอมป์ (การแสดงผล ตำแหน่ง และรูปลักษณ์)
+	Updates have not been checked yet.	ยังไม่ได้ตรวจสอบอัปเดต
 	Use additional plugins folder	ใช้โฟลเดอร์ปลั๊กอินเพิ่มเติม
 	Vanishing Point	จุดอันตรธาน
-	Vanishing Point…	จุดอันตรธาน…
 	Vanishing Point is not active	ไม่ได้เปิดใช้งานจุดอันตรธาน
 	Vanishing Point: click four corners to create a plane	จุดอันตรธาน: คลิกมุมทั้งสี่เพื่อสร้างระนาบ
+	Vanishing Point…	จุดอันตรธาน…
 	Variable font	ฟอนต์แปรผัน
 	Vertical Centers	กึ่งกลางตามแนวตั้ง
-	Vertical scale	ปรับขนาดตามแนวตั้ง
 	Vertical Type Mask Tool	เครื่องมือมาสก์ข้อความแนวตั้ง
+	Vertical scale	ปรับขนาดตามแนวตั้ง
 	Vertical type	ข้อความแนวตั้ง
 	Vignette Amount	ปริมาณขอบมืด
 	Vignette Feather	ความฟุ้งของขอบมืด
@@ -784,20 +890,23 @@
 	Watercolour look: lighter interior, darker rims.	ลักษณะสีน้ำ: ด้านในสว่างกว่า ขอบเข้มกว่า
 	Web Photo Gallery…	แกลเลอรีภาพบนเว็บ…
 	Web Snap	ปรับให้ตรงกับสีเว็บ
+	Website	เว็บไซต์
 	White Balance: As Shot	สมดุลสีขาว: ตามที่ถ่าย
 	Windows	Windows
 	Windows LCD	Windows LCD
+	With GPU Memory set to Automatic, this also limits the GPU layer budget. That budget is capped at one quarter of installed RAM and, when known, three eighths of the graphics card's memory, with a 512 MB minimum. Raising this limit beyond those caps does not increase the GPU budget.	เมื่อหน่วยความจำ GPU ตั้งเป็นอัตโนมัติ ค่านี้จะจำกัดหน่วยความจำ GPU สำหรับเลเยอร์ด้วย โดยไม่เกินหนึ่งในสี่ของ RAM ที่ติดตั้ง และสามในแปดของหน่วยความจำการ์ดกราฟิกเมื่อทราบขนาด มีค่าต่ำสุด 512 MB การเพิ่มค่านี้เกินเพดานดังกล่าวจะไม่เพิ่มหน่วยความจำที่ GPU ใช้ได้
 	Work Path	พาธทำงาน
 	Working Black Plate	แม่พิมพ์สีดำที่ใช้งาน
 	Working CMY Plate	แม่พิมพ์ CMY ที่ใช้งาน
+	Working CMY Plates	เพลต CMY ที่ใช้งาน
 	Working CMYK	CMYK ที่ใช้งาน
 	Working Cmyk	CMYK ที่ใช้งาน
 	Working Cyan Plate	แม่พิมพ์สีฟ้าอมเขียวที่ใช้งาน
 	Working Gray Plate	แม่พิมพ์สีเทาที่ใช้งาน
 	Working Magenta Plate	แม่พิมพ์สีม่วงแดงที่ใช้งาน
-	Working Yellow Plate	แม่พิมพ์สีเหลืองที่ใช้งาน
 	Working Space	ปริภูมิสีที่ใช้งาน
 	Working Spaces	ปริภูมิสีที่ใช้งาน
+	Working Yellow Plate	แม่พิมพ์สีเหลืองที่ใช้งาน
 	World ready	รองรับอักษรนานาชาติ
 	Zigzag	ซิกแซก
 	Zoom In (hold, drag to scrub)	ซูมเข้า (กดค้างแล้วลากเพื่อปรับ)
@@ -807,34 +916,24 @@
 	Zoom with scroll wheel	ซูมด้วยล้อเลื่อน
 	Zoom with trackpad pinch	ซูมด้วยการจีบนิ้วบนแทร็กแพด
 	command or shortcut	คำสั่งหรือแป้นพิมพ์ลัด
-	shortcut	แป้นพิมพ์ลัด
 	open source	โอเพนซอร์ส
 	orange	ส้ม
 	previous reading kept; the last re-read failed: {reason}	ใช้ค่าที่อ่านก่อนหน้า เนื่องจากอ่านซ้ำครั้งล่าสุดไม่สำเร็จ: {reason}
+	seconds	วินาที
+	shortcut	แป้นพิมพ์ลัด
 	{key} to subtract	กด {key} เพื่อลบออก
-	With GPU Memory set to Automatic, this also limits the GPU layer budget. That budget is capped at one quarter of installed RAM and, when known, three eighths of the graphics card's memory, with a 512 MB minimum. Raising this limit beyond those caps does not increase the GPU budget.	เมื่อหน่วยความจำ GPU ตั้งเป็นอัตโนมัติ ค่านี้จะจำกัดหน่วยความจำ GPU สำหรับเลเยอร์ด้วย โดยไม่เกินหนึ่งในสี่ของ RAM ที่ติดตั้ง และสามในแปดของหน่วยความจำการ์ดกราฟิกเมื่อทราบขนาด มีค่าต่ำสุด 512 MB การเพิ่มค่านี้เกินเพดานดังกล่าวจะไม่เพิ่มหน่วยความจำที่ GPU ใช้ได้
-cameraData	Make	ยี่ห้อ
-cameraData	Focal Length	ทางยาวโฟกัส
-cameraData	Focal Length (35 mm)	ทางยาวโฟกัส (35 mm)
-cameraData	ISO Speed	ความไวแสง ISO
+	{w} px x {h} px ({ppi} ppi)	{w} px x {h} px ({ppi} ppi)
 @plural	Group · {n} layer|Group · {n} layers	กลุ่ม · {n} เลเยอร์
 @plural	Played {n} step|Played {n} steps	ดำเนินการแล้ว {n} ขั้นตอน
 @plural	{n} plane|{n} planes	{n} ระนาบ
 @plural	{n} step has no PhotoCraft equivalent yet|{n} steps have no PhotoCraft equivalent yet	มี {n} ขั้นตอนที่ PhotoCraft ยังไม่มีคำสั่งเทียบเท่า
 @plural	{n} step with no Photoshop equivalent left out|{n} steps with no Photoshop equivalent left out	ข้าม {n} ขั้นตอนที่ Photoshop ไม่มีคำสั่งเทียบเท่า
-	{w} px x {h} px ({ppi} ppi)	{w} px x {h} px ({ppi} ppi)
+cameraData	Focal Length	ทางยาวโฟกัส
+cameraData	Focal Length (35 mm)	ทางยาวโฟกัส (35 mm)
+cameraData	ISO Speed	ความไวแสง ISO
+cameraData	Make	ยี่ห้อ
 fontWeight	ExtraBold	หนาพิเศษ
 fontWeight	ExtraLight	บางพิเศษ
 fontWeight	SemiBold	กึ่งหนา
-smartSvg	Stop syncing this Smart Object	หยุดซิงก์สมาร์ตออบเจ็กต์นี้
 smartSvg	PhotoCraft (internal editor)	PhotoCraft (ตัวแก้ไขภายใน)
-	Sans Serif	อักษรไม่มีเชิง
-	Adobe Every-line Composer	ระบบจัดข้อความทุกบรรทัด Adobe
-	Adobe Single-line Composer	ระบบจัดข้อความทีละบรรทัด Adobe
-	@{login}: {prs} PRs, {commits} commits, +{added} / −{deleted} lines (Δ {delta}), +{binAdded} / −{binDeleted} binary assets, {first} – {last}	@{login}: {prs} PR, {commits} คอมมิต, เพิ่ม {added} / ลบ {deleted} บรรทัด (Δ {delta}), เพิ่ม {binAdded} / ลบ {binDeleted} ไฟล์ไบนารี, {first} – {last}
-	Type	ข้อความ
-	Filter	ฟิลเตอร์
-	Screen	สกรีน
-	Hard Light	แสงเข้ม
-	Exposure	การรับแสง
-	Group	กลุ่ม
+smartSvg	Stop syncing this Smart Object	หยุดซิงก์สมาร์ตออบเจ็กต์นี้
