@@ -26,6 +26,8 @@ UI and integration: 5,513 passed, 23 ignored. Updater checks: 4 passed. Final lo
 
 Mac packages use ad-hoc signatures and are not notarized. Windows packages are unsigned. Windows CLI/installer checks run on a native Windows CI runner; this does not claim manual testing of every Windows GUI workflow.
 
+Thai updates are manual downloads from this repository’s Releases. The upstream automatic checker accepts stable versions only and excludes the `-th.1` release names.
+
 ## 0.20.1-th.1 — previous release
 
 4,627 Thai entries; 2,272/2,272 source keys. Historical font-selection failures and the original Mac verification are preserved in [the dated report](validation-th.md). They do not describe the current release's results.

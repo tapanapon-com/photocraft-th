@@ -106,3 +106,9 @@ Based on the complete upstream v0.21.0 tag, revision `efb7ebd0c0dab1fc108ee4642a
 Read the [upstream README](README-upstream.md), [attribution](ATTRIBUTION.md), [MIT](LICENSE-MIT) and [Apache-2.0](LICENSE-APACHE) notices. Retain original copyright and asset licenses when redistributing. The repository-initialization `LICENSE` does not replace upstream notices. Upstream branding is subject to its own terms.
 
 For build instructions, see the [bilingual localization guide](docs/localization-th.md). Product news and downloads are collected at [One Per Craft by Tapanapon](https://tapanapon.com/one-per-craft).
+
+## อัปเดตรุ่นไทย / Updating the Thai edition
+
+ตรวจรุ่นใหม่จาก [Thai Releases](https://github.com/tapanapon-com/photocraft-th/releases) และ [Version Log](docs/version-log.md) แล้วดาวน์โหลด DMG/MSI หรือ portable ZIP ที่ตรงกับเครื่อง บันทึกงานและปิดแอปก่อนแทนที่รุ่นเดิม ระบบ Check for Updates ของต้นฉบับยังคัดเฉพาะรุ่น stable จึงไม่แจ้งรุ่นไทยที่มีชื่อ `-th.1` อัตโนมัติ
+
+For Thai updates, use this repository's Releases and Version Log, verify the checksum, save your work and quit the app before replacing the previous copy. Upstream's automatic checker excludes `-th.1` prereleases; automatic Thai updates are not currently supported.
