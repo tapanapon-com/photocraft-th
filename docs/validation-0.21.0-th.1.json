@@ -18,5 +18,17 @@
   "layers": "31 crates passed",
   "wasm": "24 crates plus HEIF passed",
   "sourceCoverage": "100 percent; no missing Thai keys",
-  "packaging": "not yet built"
+  "packaging": "Platform artifacts are validated separately after packaging; see release checksums",
+  "mac": {
+    "sha256": "0162006f4c344ad80bbfb6127a2ab967c332f91b54fc83c840237c5de0c91828",
+    "bytes": 132793135,
+    "cliVersion": "photocraft-cli 0.21.0-th.1 (a66d18014, 2026-11-07)",
+    "gui": "Thai menus; language switching; native save/reopen; PNG export; real workspace screenshot passed",
+    "status": "passed",
+    "architecture": "arm64",
+    "signatures": "ad-hoc; mounted DMG strict verification passed",
+    "mcpTools": 26,
+    "visualInspection": "Workspace, new-document dialog and exported PNG inspected; Thai shaping present"
+  },
+  "windows": "Pending native Windows x64 CI packaging and validation"
 }

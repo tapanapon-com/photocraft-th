@@ -22,7 +22,8 @@ cp "$BINARY" "$APP/Contents/MacOS/PhotoCraft"
 cp "$ROOT/target/release/photocraft-cli" "$APP/Contents/MacOS/photocraft-cli"
 cp "$ROOT/assets/app-icon/photocraft.icns" "$APP/Contents/Resources/PhotoCraft.icns"
 cp "$ROOT/NOTICE" "$ROOT/ATTRIBUTION.md" "$ROOT/LICENSE-MIT" "$ROOT/LICENSE-APACHE" "$APP/Contents/Resources/"
-cp "$ROOT/docs/localization-th.md" "$APP/Contents/Resources/"
+cp "$ROOT/docs/localization-th.md" "$ROOT/docs/thai-upgrade-20261107.md" \
+  "$ROOT/docs/validation-0.21.0-th.1.json" "$APP/Contents/Resources/"
 sed -e "s/@VERSION@/$VERSION/g" -e 's/@SHORT_VERSION@/0.21.0/g' \
   -e "s/@BUILD_SHA@/$(git -C "$ROOT" rev-parse --short HEAD)-thai/g" \
   "$ROOT/packaging/macos/Info.plist.in" > "$APP/Contents/Info.plist"

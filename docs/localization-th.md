@@ -63,7 +63,7 @@ DMG อยู่ใน `dist/thai/` เปิดไฟล์แล้วลา�
 
 The DMG is written to `dist/thai/`. Open it and drag PhotoCraft to Applications. This local build is ad-hoc signed, not Apple-notarized, and supports only the architecture it was built for.
 
-ผลตรวจและข้อจำกัดของชุดทดสอบ / Test results and remaining failures: [validation-th.md](validation-th.md).
+ผลตรวจรุ่นปัจจุบัน / Current validation: [validation-0.21.0-th.1.json](validation-0.21.0-th.1.json). [validation-th.md](validation-th.md) บันทึกผลของรุ่น 0.20.1 เท่านั้น / records the historical 0.20.1 checks only.
 
 ## อัปเกรด 7 พฤศจิกายน 2026
 
