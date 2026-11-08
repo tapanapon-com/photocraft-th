@@ -1,5 +1,7 @@
 # Thai localization validation — 2026-11-05
 
+Historical report for 0.20.1-th.1. The font-selection failures below were resolved in 0.21.0-th.1; see [current validation](validation-0.21.0-th.1.json) and the [upgrade log](thai-upgrade-20261107.md).
+
 Environment: macOS 26.3.1, Apple Silicon (arm64). Upstream source: `8e9277e20e8d5185ed4259908022a719a647237e`, PhotoCraft 0.20.1.
 
 ## Passed

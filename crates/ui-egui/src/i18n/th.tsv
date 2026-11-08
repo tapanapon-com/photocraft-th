@@ -69,6 +69,11 @@
 	@{login}: {prs} PRs, {commits} commits, +{added} / −{deleted} lines (Δ {delta}), +{binAdded} / −{binDeleted} binary assets, {first} – {last}	@{login}: {prs} PR, {commits} คอมมิต, เพิ่ม {added} / ลบ {deleted} บรรทัด (Δ {delta}), เพิ่ม {binAdded} / ลบ {binDeleted} ไฟล์ไบนารี, {first} – {last}
 	A brush preset with this name already exists	มีค่าที่ตั้งไว้ของแปรงชื่อนี้อยู่แล้ว
 	A command was cancelled or stopped during batch processing. Continue with the next file or stop?	คำสั่งถูกยกเลิกหรือหยุดระหว่างการประมวลผลเป็นชุด ต้องการทำไฟล์ถัดไปหรือหยุด?
+	A file is still being placed; try again when it has finished.	กำลังวางไฟล์อยู่ โปรดลองอีกครั้งเมื่อเสร็จแล้ว
+	A frame supports affine transforms; select its image for perspective transforms	เฟรมรองรับการแปลงแบบแอฟไฟน์ หากต้องการปรับเพอร์สเปกทีฟ ให้เลือกภาพในเฟรม
+	A frame supports affine transforms; select its image to warp it	เฟรมรองรับการแปลงแบบแอฟไฟน์ หากต้องการบิดภาพ ให้เลือกภาพในเฟรม
+	A picked document is no longer a grayscale document of the same size.	เอกสารที่เลือกไม่ใช่เอกสารโทนสีเทาที่มีขนาดเท่ากันแล้ว
+	A picked document is no longer open.	เอกสารที่เลือกไม่ได้เปิดอยู่แล้ว
 	A save to {name} is still running; try again when it finishes	กำลังบันทึกไปยัง {name} โปรดลองอีกครั้งเมื่อเสร็จ
 	A:	A:
 	ACES	ACES
@@ -80,6 +85,7 @@
 	About {app}	เกี่ยวกับ {app}
 	Absolute	สัมบูรณ์
 	Absolute Colorimetric	การเทียบสีแบบสัมบูรณ์
+	Accelerated	เร่งความเร็ว
 	Accented Edges	ขอบที่เน้น
 	Accept and Go to Conflict	ยอมรับและย้ายไปยังข้อขัดแย้ง
 	Accurate	แม่นยำ
@@ -354,6 +360,7 @@
 	Backend: {backend} ({type})	ระบบประมวลผล: {backend} ({type})
 	Background	พื้นหลัง
 	Background (Default)	พื้นหลัง (ค่าเริ่มต้น)
+	Background (default)	พื้นหลัง (ค่าเริ่มต้น)
 	Background Color	สีพื้นหลัง
 	Background Contents	เนื้อหาพื้นหลัง
 	Background Eraser	เครื่องมือลบพื้นหลัง
@@ -552,6 +559,7 @@
 	Cancel transform (Esc)	ยกเลิกการเปลี่ยนรูปแบบ (Esc)
 	Cancel warp (Esc)	ยกเลิกการเบี่ยง (Esc)
 	Cancelled opening {name}	การเปิดถูกยกเลิก {name}
+	Cancelled placing {name}	ยกเลิกการวาง {name} แล้ว
 	Cancelled {label}	ยกเลิก {label}
 	Candle Light	แสงเทียน
 	Canvas	ผืนภาพ
@@ -601,6 +609,7 @@
 	Channel Color	สีช่อง
 	Channel Mixer	เครื่องผสมช่อง
 	Channel Mixer…	เครื่องมือผสมช่อง…
+	Channel Options…	ตัวเลือกช่องสี…
 	Channel1	ช่อง 1
 	Channel2	ช่อง 2
 	Channel3	ช่อง 3
@@ -615,12 +624,14 @@
 	Charcoal	ชาร์โคล
 	Charcoal Area	พื้นที่ชาร์โคล
 	Charcoal Thickness	ความหนาของชาร์โคล
+	Check Again	ตรวจสอบอีกครั้ง
 	Check All Layers	ตรวจสอบทุกเลเยอร์
 	Check Spelling	ตรวจสอบการสะกด
 	Check Spelling…	ตรวจสอบการสะกด…
 	Check for Updates	ตรวจสอบการอัปเดต
 	Check for Updates…	ตรวจสอบอัปเดต…
 	Checkerboard	รูปแบบเช็คเกอร์
+	Checking for updates…	กำลังตรวจสอบอัปเดต…
 	Chisel Hard	สกัดแบบแข็ง
 	Chisel Soft	สกัดแบบนุ่ม
 	Choke	การยุบ
@@ -651,6 +662,7 @@
 	Clear History	ล้างประวัติการกระทำ
 	Clear Layer Style	ลบลักษณะของเลเยอร์
 	Clear Override	ลบค่าที่ปรับทับ
+	Clear Recent File List	ล้างรายการไฟล์ล่าสุด
 	Clear Recent Files	ล้างรายการไฟล์ล่าสุด
 	Clear Samples	ลบตัวอย่างสี
 	Clear Selected Artboard Guides	ล้างเส้นไกด์ของอาร์ตบอร์ดที่เลือก
@@ -688,6 +700,7 @@
 	Click: corner · Drag: smooth · {alt}-drag: break handle · Click or drag first point: close · {key} finish · Esc cancel	คลิก: จุดมุม · ลาก: ทำให้เรียบ · ลากด้วย {alt}: ยกเลิกการจัดการจุด · คลิกหรือลากจุดแรก: ปิด · คลิกด้วย {key} เพื่อสิ้นสุด · ปุ่ม Esc ยกเลิก
 	Click: select anchor · Drag: move anchor, handle or segment · {shift}-click: add · {alt}-click: whole subpath	คลิก: เลือกจุดยึด · ลาก: ย้ายจุด หรือ จุดควบคุม หรือ ช่วง · คลิกด้วย {shift}: เพิ่ม · คลิกด้วย {alt}: ทั้งเส้นย่อย
 	Click: smooth point · Double-click: corner · Drag a point: move · Click first point: close · {key} finish	คลิก: จุดเรียบ · คลิกซ้ำ: จุดมุม · ลากจุด: ย้าย · คลิกจุดแรก: ปิด · คลิกด้วย {key} เพื่อสิ้นสุด
+	Clip Thumbnails to Document Bounds	ตัดภาพขนาดย่อให้พอดีขอบเขตเอกสาร
 	Clip Thumbnails to Layer Bounds	ตัดภาพตัวอย่างให้สอดคล้องกับขอบของเลเยอร์
 	Clip thumbnails to layer bounds	ตัดภาพตัวอย่างให้สอดคล้องกับขอบของเลเยอร์
 	Clip to layer below	ตัดไปยังเลเยอร์ด้านล่าง
@@ -827,6 +840,7 @@
 	Confirm	ยืนยัน
 	Confirm or cancel the open action step dialog first	ยืนยันหรือยกเลิกการตั้งค่าขั้นตอนการดำเนินการก่อน
 	Conform	สอดคล้อง
+	Consolidate All to Here	รวมทั้งหมดไว้ที่นี่
 	Consolidate All to Tabs	รวมทั้งหมดไปยังแท็บ
 	Constant	คงที่
 	Constrain proportions	คงสัดส่วน
@@ -862,6 +876,7 @@
 	Convert for Smart Filters	แปลงเพื่อกรองแบบอัจฉริยะ
 	Convert to Alpha Channel	แปลงเป็นช่องอัลฟ่า
 	Convert to Embedded	แปลงเป็นแบบฝัง
+	Convert to Frame…	แปลงเป็นเฟรม…
 	Convert to Grayscale	แปลงเป็นแบบสีเทา
 	Convert to Layers	แปลงเป็นเลเยอร์
 	Convert to Linked	แปลงเป็นเชื่อมโยง
@@ -908,6 +923,7 @@
 	Correct Distortion	ปรับความเบี้ยว
 	Correct Vignette	แก้ไขขอบมืด
 	Correction	การแก้ไข
+	Could not check for updates.	ไม่สามารถตรวจสอบอัปเดตได้
 	Could not complete the Free Transform command because the layer is locked.	ไม่สามารถแปลงรูปทรงแบบอิสระได้ เนื่องจากเลเยอร์ถูกล็อก
 	Could not open	ไม่สามารถเปิดได้
 	Could not rename the action: {error}	เปลี่ยนชื่อแอ็กชันไม่สำเร็จ: {error}
@@ -953,12 +969,16 @@
 	Create Warped Text	สร้างข้อความบิดโค้ง
 	Create Work Path	สร้างเส้นทางการทำงาน
 	Create a new count group	สร้างกลุ่มการนับใหม่
+	Create a new custom frame	สร้างเฟรมกำหนดเองใหม่
 	Create a new document or open an existing file.	สร้างเอกสารใหม่ หรือเปิดไฟล์ที่มีอยู่
 	Create a new elliptical frame	สร้างกรอบวงรีใหม่
 	Create a new group	สร้างกลุ่มใหม่
 	Create a new layer	สร้างเลเยอร์ใหม่
 	Create a new layer  (⇧⌘N)	สร้างเลเยอร์ใหม่ (⇧⌘N)
+	Create a new polygonal frame	สร้างเฟรมรูปหลายเหลี่ยมใหม่
 	Create a new rectangular frame	สร้างกรอบรูปสี่เหลี่ยมใหม่
+	Create a new triangular frame	สร้างเฟรมรูปสามเหลี่ยมใหม่
+	Create a single history state	สร้างสถานะประวัติเพียงสถานะเดียว
 	Create new action	สร้างแอคชันใหม่
 	Create new brush from the current settings	สร้างแปรงใหม่จากตั้งค่าปัจจุบัน
 	Create new brush from these settings	สร้างแปรงใหม่จากตั้งค่าเหล่านี้
@@ -1313,6 +1333,8 @@
 	Drop Shadow…	เงาตกกระทบ…
 	Drop an image or PSD anywhere to open it.	วางภาพหรือไฟล์ PSD ที่ไหนก็ได้เพื่อเปิดใช้งาน
 	Drop shadow	เงาตกกระทบ
+	Dropped files weren't placed: their document was closed.	ไม่ได้วางไฟล์ที่ลากมา เนื่องจากเอกสารปลายทางปิดไปแล้ว
+	Dropped files weren't placed: too many are waiting for their document.	ไม่ได้วางไฟล์ที่ลากมา เนื่องจากมีไฟล์รอเอกสารปลายทางมากเกินไป
 	Dry Brush	แปรงแห้ง
 	Dual Axis	แกนคู่
 	Dual Brush	แปรงคู่
@@ -1380,7 +1402,9 @@
 	Ellipse Tool	เครื่องมือวงรี
 	Elliptical Marquee Tool	เครื่องมือเลือกแบบวงรี
 	Email	อีเมล
+	Embed All Linked	ฝังรายการที่เชื่อมโยงทั้งหมด
 	Embed Color Profile	รวมโปรไฟล์สี
+	Embed Linked	ฝังรายการที่เชื่อมโยง
 	Embed profiles	รวมโปรไฟล์
 	Embedded Profile Mismatch	ไม่สอดคล้องกับโปรไฟล์ที่รวมมา
 	Emboss	เอ็มโบส
@@ -1582,6 +1606,8 @@
 	Fisheye	ฟิชอาย
 	Fit	พอดี
 	Fit Artboard on Screen	แสดงอาร์ตบอร์ดให้พอดีหน้าจอ
+	Fit Content to Frame	ปรับเนื้อหาให้พอดีเฟรม
+	Fit Frame to Content	ปรับเฟรมให้พอดีเนื้อหา
 	Fit Image	ปรับภาพให้พอดี
 	Fit Image…	ปรับภาพให้พอดี…
 	Fit Layer on Screen	แสดงเลเยอร์ให้พอดีหน้าจอ
@@ -1657,6 +1683,7 @@
 	Frame Duration	ระยะเวลาเเฟรม
 	Frame Sync	การสัมพันธ์เเฟรม
 	Frame Tool	เครื่องมือเเฟรม
+	Frame coordinates must be finite and within 600000 pixels	พิกัดเฟรมต้องเป็นจำนวนจำกัดและอยู่ภายใน 600000 พิกเซล
 	Frame from Layers	เเฟรมจากเลเยอร์
 	Frame from Layers…	เเฟรมจากเลเยอร์…
 	Frame {current} / {total}	เเฟรม {current} / {total}
@@ -1724,6 +1751,7 @@
 	General…	ทั่วไป…
 	Generate	สร้าง
 	Generate Mipmaps	สร้าง Mipmaps
+	Generator enabled	เปิดใช้งาน Generator แล้ว
 	Generators	เครื่องสร้าง
 	Generic	ทั่วไป
 	Gif	Gif
@@ -1970,6 +1998,7 @@
 	Import Brushes… (.abr or image)	นำเข้าแปรง… (.abr หรือภาพ)
 	Import Brushes… (.abr)	นำเข้าแปรง… (.abr)
 	Import Image	นำเข้าภาพ
+	Import Image…	นำเข้าภาพ…
 	Import Options	ตัวเลือกการนำเข้า
 	Import Photoshop brushes (.abr)	นำเข้าแปรงของ Photoshop (.abr)
 	Import Presets	นำเข้าค่าที่ตั้งไว้
@@ -2038,6 +2067,7 @@
 	Install Plug-in	ติดตั้งปลั๊กอิน
 	Install Plug-in…	ติดตั้งปลั๊กอิน…
 	Installed RAM: {ram} MB; this limit: {percent}%	RAM ที่ติดตั้ง: {ram} MB; ขีดจำกัดนี้: {percent}%
+	Installed version: {version}	รุ่นที่ติดตั้ง: {version}
 	Integer	จำนวนเต็ม
 	Integrated Density	ความหนาแน่นแบบรวม
 	Integrations	การเชื่อมโยง
@@ -2048,6 +2078,7 @@
 	Interface…	อินเตอร์เฟซ…
 	Interlaced	แบบสลับเส้น
 	Internet Standard RGB	สี RGB ตามมาตรฐานอินเทอร์เน็ต
+	Internet Standard RGB (sRGB)	RGB มาตรฐานอินเทอร์เน็ต (sRGB)
 	Interpolation	การแทรกค่า
 	Interpolation:	การประมาณค่า:
 	Interpret Footage	กำหนดการตีความฟุตเทจ
@@ -2059,7 +2090,9 @@
 	Intersect with selection  (⇧⌥)	เลือกส่วนซ้อนทับกับพื้นที่เลือก (⇧⌥)
 	Interval	ช่วงเวลาระหว่าง
 	Invalid delete command	คำสั่งการลบไม่ถูกต้อง
+	Invalid frame transform	การแปลงเฟรมไม่ถูกต้อง
 	Invalid guide layout	การจัดเรียงเส้นไกด์ไม่ถูกต้อง
+	Invalid nested file drop	การวางไฟล์ซ้อนกันไม่ถูกต้อง
 	Invalid numeric entry. An integer between {min}% and {max}% is required. Previous value was inserted.	การป้อนค่าไม่ถูกต้อง ต้องเป็นจำนวนเต็มระหว่าง {min}% ถึง {max}% ค่าก่อนหน้าถูกป้อนแล้ว
 	Invalid panel layout; restored the default dock	การจัดเรียงแผงไม่ถูกต้อง คืนค่าเป็นค่าเริ่มต้น
 	Invalid {mode} profile	โปรไฟล์ {mode} ไม่ถูกต้อง
@@ -2125,6 +2158,7 @@
 	Language	ภาษา
 	Language Options	ตัวเลือกภาษา
 	Large	ใหญ่
+	Large Thumbnails	ภาพขนาดย่อขนาดใหญ่
 	Large document: redrawing on the CPU	เอกสารขนาดใหญ่: วาดใหม่บน CPU
 	Large tabs	แท็บใหญ่
 	Lasso	ลัสโซ
@@ -2174,6 +2208,7 @@
 	Leading (set to the font size × auto-leading when Auto)	ระยะบรรทัด (ตั้งเป็นขนาดฟอนต์ × ระยะบรรทัดอัตโนมัติเมื่อเปิดอัตโนมัติ)
 	Leading presets	ตั้งค่าระยะบรรทัด
 	Leaf Color	สีใบไม้
+	Learn	เรียนรู้
 	Learn More	อ่านเพิ่มเติม
 	Leave as is (don't color manage)	คงไว้เหมือนเดิม (ไม่จัดการสี)
 	Leave empty for automatic size	เว้นว่างเพื่อขนาดอัตโนมัติ
@@ -2188,6 +2223,7 @@
 	Left:	ซ้าย:
 	Legacy	รุ่นเก่า
 	Legacy Macintosh RGB	รูปแบบ RGB แบบเก่าของ Macintosh
+	Legacy Macintosh RGB (Gamma 1.8)	Macintosh RGB แบบเดิม (แกมมา 1.8)
 	Legacy compositing	การรวมภาพแบบเก่า
 	Legal	กระดาษ Legal
 	Length	ความยาว
@@ -2274,6 +2310,7 @@
 	Liquify…	ปรับรูปร่าง…
 	List	รายการ
 	List view	มุมมองรายการ
+	Little memory would be left after opening this file. Close other apps first, or PhotoCraft may run out of memory.	หลังเปิดไฟล์นี้จะเหลือหน่วยความจำน้อย โปรดปิดแอปอื่นก่อน มิฉะนั้น PhotoCraft อาจมีหน่วยความจำไม่เพียงพอ
 	Live Preview	ดูแบบเรียลไทม์
 	Load	โหลด
 	Load 3D LUT	โหลด LUT 3D
@@ -2422,6 +2459,7 @@
 	Medium Gray	สีเทาปานกลาง
 	Medium Lines	เส้นปานกลาง
 	Medium Strokes	เส้นขอบปานกลาง
+	Medium Thumbnails	ภาพขนาดย่อขนาดกลาง
 	Medium gray	สีเทาปานกลาง
 	Memory Usage	การใช้หน่วยความจำ
 	Memory usage mb	การใช้หน่วยความจำ (MB)
@@ -2441,6 +2479,7 @@
 	Merged PRs	PR ที่ผสานแล้ว
 	Mesh	โครงสร้างแบบตาข่าย
 	Mesh Size	ขนาดตาข่าย
+	Message	ข้อความ
 	Message:	ข้อความ:
 	Metadata	เมทาดาทา
 	Metal	โลหะ
@@ -2523,6 +2562,7 @@
 	Move effect layer up	ย้ายเลเยอร์เอฟเฟกต์ขึ้น
 	Move effect up	ย้ายเอฟเฟกต์ขึ้น
 	Move to	ย้ายไปที่
+	Move to New Window	ย้ายไปหน้าต่างใหม่
 	Movie Prime	มิววี ไพร์ม
 	Multichannel	หลายช่องสี
 	Multiple Flames Along Path	ไฟหลายชิ้นตามเส้นทาง
@@ -2563,7 +2603,9 @@
 	New Crop Preset…	ค่าตั้งค่าการตัดใหม่…
 	New Document	เอกสารใหม่
 	New Document With Mask	เอกสารใหม่พร้อมมาสก์
+	New Document…	เอกสารใหม่…
 	New Fill Layer	เลเยอร์เติมสีใหม่
+	New Frame	เฟรมใหม่
 	New Group	กลุ่มใหม่
 	New Group from Layers…	กลุ่มใหม่จากเลเยอร์…
 	New Group…	กลุ่มใหม่…
@@ -2605,6 +2647,7 @@
 	New document…	เอกสารใหม่…
 	New document…     ⌘N	เอกสารใหม่…     ⌘N
 	New effect layer	เลเยอร์เอฟเฟกต์ใหม่
+	New file	ไฟล์ใหม่
 	New from Clipboard	สร้างใหม่จากคลิปบอร์ด
 	New selection	การเลือกใหม่
 	Newspaper	หนังสือพิมพ์
@@ -2631,6 +2674,7 @@
 	No Results Found	ไม่พบผลลัพธ์
 	No Selection	ไม่มีการเลือก
 	No Spelling Suggestions	ไม่มีคำแนะนำด้านการสะกด
+	No Thumbnails	ไม่แสดงภาพขนาดย่อ
 	No Vector Mask	ไม่มีมาสก์เวกเตอร์
 	No author	ไม่มีผู้เขียน
 	No brush presets	ไม่มีค่าตั้งค่าแปรง
@@ -2677,6 +2721,7 @@
 	Not Locked	ไม่ได้ล็อก
 	Not Visible	ไม่แสดง
 	Not a web colour: click for the nearest web colour	ไม่ใช่สีเว็บ: คลิกเพื่อเลือกสีเว็บที่ใกล้ที่สุด
+	Not enough grayscale documents for this mode.	เอกสารโทนสีเทาไม่เพียงพอสำหรับโหมดนี้
 	Not in Dictionary:	ไม่ปรากฏในคำศัพท์:
 	Not rendered: this adjustment ({key}) is kept as imported.	ไม่ได้แสดงผล: การปรับแต่งนี้ ({key}) ถูกเก็บไว้ตามที่นำเข้ามา
 	Note Paper	กระดาษบันทึก
@@ -2690,6 +2735,7 @@
 	Nothing to paste: the clipboard holds no image	ไม่มีสิ่งใดที่สามารถวาง: คลิปบอร์ดไม่มีภาพ
 	Notification Duration (seconds)	ระยะเวลาแจ้งเตือน (วินาที)
 	Now drag the selection onto another area	ตอนนี้ดึงพื้นที่เลือกไปยังพื้นที่อื่น
+	Nudge	เลื่อนทีละน้อย
 	Nudge Bundle Pause (ms)	ช่วงพักเพื่อรวมการขยับเป็นขั้นตอนเดียว (ms)
 	Number	ตัวเลข
 	Number Of Levels	จำนวนระดับ
@@ -2716,6 +2762,7 @@
 	On Black	บนสีดำ
 	On Layers	บนเลเยอร์
 	On White	บนสีขาว
+	On your computer	บนคอมพิวเตอร์ของคุณ
 	One Flame Along Path	ไฟหนึ่งตามพาธ
 	Onion Skin	ภาพซ้อนแบบกระดาษไข
 	Only Web Colors	เฉพาะสีเว็บ
@@ -2728,6 +2775,8 @@
 	Open	เปิด
 	Open As	เปิดเป็น
 	Open As…	เปิดเป็น…
+	Open Document…	เปิดเอกสาร…
+	Open Download Page	เปิดหน้าดาวน์โหลด
 	Open EXR Parts…	เปิดส่วน EXR…
 	Open File	เปิดไฟล์
 	Open Folder	เปิดโฟลเดอร์
@@ -2875,6 +2924,8 @@
 	Patterns	ลวดลาย
 	Pattern…	รูปแบบ…
 	Pause	หยุดชั่วคราว
+	Pause For	หยุดชั่วคราวเป็นเวลา
+	Pause For:	หยุดชั่วคราวเป็นเวลา:
 	Pen	ปากกา
 	Pen Pressure	แรงกดปากกา
 	Pen Tilt	การเอียงของปากกา
@@ -2909,13 +2960,16 @@
 	PhotoCraft	PhotoCraft
 	PhotoCraft Defaults	ค่าเริ่มต้นของ PhotoCraft
 	PhotoCraft Manages Colors	PhotoCraft จัดการสี
+	PhotoCraft Updates	อัปเดต PhotoCraft
 	PhotoCraft Website	เว็บไซต์ของ PhotoCraft
 	PhotoCraft can't reach the system clipboard in this session. On Wayland, a Flatpak sandbox hides the protocol that images from other apps are read through.	Photoฯ ไม่สามารถเข้าถึงบัฟเฟอร์ตัดข้อมูลของระบบในช่วงนี้ บน Wayland โหมด Flatpak ซ่อนโปรโตคอลที่ใช้อ่านภาพจากแอปอื่น
 	PhotoCraft found your keyboard shortcut set {set} from another image editor on this computer: {n} of its shortcuts differ from PhotoCraft's. Import it?	PhotoCraft พบชุดแป้นพิมพ์ลัด {set} ของคุณจากโปรแกรมแก้ไขภาพอื่นในเครื่องนี้ โดยมี {n} รายการที่ต่างจาก PhotoCraft ต้องการนำเข้าหรือไม่?
+	PhotoCraft is up to date.	PhotoCraft เป็นรุ่นล่าสุดแล้ว
 	PhotoCraft is using the CPU image compositor. The window may still use your graphics adapter.	PhotoCraft กำลังใช้ตัวรวมภาพของ CPU หน้าต่างอาจยังใช้ฮาร์ดแวร์กราฟิกของคุณ
 	PhotoCraft keeps retrying; until a save succeeds, preference changes are lost when it closes.	PhotoCraft กำลังพยายามซ้ำๆ จนกว่าจะสำเร็จการบันทึก ถ้าไม่สำเร็จ ค่าตั้งต้นจะสูญหายเมื่อปิด
 	PhotoCraft on GitHub	PhotoCraft บน GitHub
 	PhotoCraft website	เว็บไซต์ PhotoCraft
+	PhotoCraft {version} is available.	มี PhotoCraft {version} พร้อมให้ดาวน์โหลด
 	PhotoCraft — Screen Color Picker	PhotoCraft — ตัวเลือกสีบนหน้าจอ
 	PhotoCraft — an open-source, native image editor written in Rust.	PhotoCraft — โปรแกรมตัดภาพแบบเปิด ใช้ภาษา Rust ที่รองรับระบบปฏิบัติการโดยตรง
 	Photocopy	การถ่ายสำเนา
@@ -2924,6 +2978,7 @@
 	Photomerge…	การรวมภาพ…
 	Picas	พิกัส
 	Pick Color From Image	เลือกสีจากภาพ
+	Pick a different document for each channel.	เลือกเอกสารที่แตกต่างกันสำหรับแต่ละช่องสี
 	Pick a screen pixel or press Esc to cancel	เลือกพิกเซลบนหน้าจอ หรือกด Esc เพื่อยกเลิก
 	Pick screen color	เลือกสีบนหน้าจอ
 	Picture Frame	กรอบรูปภาพ
@@ -2963,9 +3018,13 @@
 	Play	เล่น
 	Play Once	เล่นครั้งเดียว
 	Play selection	เล่นพื้นที่เลือก
+	Playback Options	ตัวเลือกการเล่น
+	Playback Options…	ตัวเลือกการเล่น…
 	Please wait…	โปรดรอ…
 	Plug-ins	ปลั๊กอิน
 	Plug-ins…	ปลั๊กอิน…
+	Plugins	ปลั๊กอิน
+	Plugins…	ปลั๊กอิน…
 	Png	Png
 	Point	จุด
 	Point Curve	เส้นโค้งจุด
@@ -3212,6 +3271,7 @@
 	Relative	สัมพัทธ์
 	Relative Colorimetric	การเทียบสีแบบสัมพัทธ์
 	Release Clipping Mask	ยกเลิกคลิปปิงมาสก์
+	Release Notes	บันทึกประจำรุ่น
 	Relief	ความนูน
 	Relight…	ปรับแสงใหม่…
 	Relink to File	เชื่อมโยงไฟล์ใหม่
@@ -3269,6 +3329,7 @@
 	Replace Contours…	แทนที่เส้นโค้ง…
 	Replace Footage	แทนที่วิดีโอ
 	Replace Footage…	แทนที่วิดีโอ…
+	Replace Image…	แทนที่ภาพ…
 	Replace Swatches…	แทนที่ตัวอย่างสี…
 	Replace deletes everything in “{group}” first, including presets you edited or moved there. This can't be undone.	การแทนที่จะลบทุกอย่างใน “{group}” ก่อน รวมถึงค่าที่ตั้งไว้ที่คุณแก้ไขหรือย้ายมา การกระทำนี้เลิกทำไม่ได้
 	Replace it with this document, or cancel and use File › Save As to keep both.	แทนที่ด้วยเอกสารนี้ หรือยกเลิกและใช้ File › Save As เพื่อเก็บทั้งสองเอกสาร
@@ -3327,6 +3388,7 @@
 	Retry saving presets	ลองบันทึกค่าที่ตั้งไว้ใหม่
 	Reveal All	แสดงทั้งหมด
 	Reveal Selection	แสดงพื้นที่เลือก
+	Reveal in Explorer	แสดงใน Explorer
 	Reveal in Finder	แสดงใน Finder
 	Reverse	กลับด้าน
 	Reverse the order	กลับลำดับ
@@ -3555,6 +3617,27 @@
 	Serif	อักษรมีเชิง
 	Services	บริการ
 	Sessions only	เฉพาะเซสชัน
+	Set 	ชุด 
+	Set 1	ชุด 1
+	Set 10	ชุด 10
+	Set 11	ชุด 11
+	Set 12	ชุด 12
+	Set 13	ชุด 13
+	Set 14	ชุด 14
+	Set 15	ชุด 15
+	Set 16	ชุด 16
+	Set 17	ชุด 17
+	Set 18	ชุด 18
+	Set 19	ชุด 19
+	Set 2	ชุด 2
+	Set 20	ชุด 20
+	Set 3	ชุด 3
+	Set 4	ชุด 4
+	Set 5	ชุด 5
+	Set 6	ชุด 6
+	Set 7	ชุด 7
+	Set 8	ชุด 8
+	Set 9	ชุด 9
 	Set Black Point	ตั้งจุดดำ
 	Set Colors	ตั้งสี
 	Set GPU Memory in Preferences › Performance to what your graphics card can hold, at most 3/8 of its memory. Automatic follows Memory Usage, within a quarter of this computer's memory and 3/8 of the card's, and doesn't count the document against a card whose memory is known. The status bar shows GPU Memory Full while they don't fit.	ตั้งหน่วยความจำ GPU ในการตั้งค่า › ประสิทธิภาพ ให้เหมาะกับการ์ดกราฟิก โดยไม่เกิน 3/8 ของหน่วยความจำการ์ด โหมดอัตโนมัติอิงการใช้หน่วยความจำ ภายในหนึ่งในสี่ของหน่วยความจำเครื่องและ 3/8 ของการ์ด และไม่นับเอกสารรวมในขีดจำกัดการ์ดเมื่อทราบขนาดหน่วยความจำของการ์ด แถบสถานะจะแสดงว่าหน่วยความจำ GPU เต็มเมื่อมีพื้นที่ไม่พอ
@@ -3728,6 +3811,7 @@
 	Slices are locked (View › Lock Slices)	สไลซ์ถูกล็อก (มุมมอง › ล็อกสไลซ์)
 	Small	เล็ก
 	Small Caps	ตัวเล็กเป็นตัวใหญ่
+	Small Thumbnails	ภาพขนาดย่อขนาดเล็ก
 	Smart Blur	เบลอแบบอัจฉริยะ
 	Smart Blur…	เบลอแบบอัจฉริยะ…
 	Smart Filter	สมาร์ตฟิลเตอร์
@@ -3793,6 +3877,7 @@
 	Source:	แหล่งเสียง:
 	Source: not set ({key}-click with Clone Stamp)	แหล่งที่มา: ไม่ได้ตั้งค่า ({key}-คลิกด้วยแปรงการคัดลอก)
 	Source: set	แหล่งที่มา: ตั้งค่าแล้ว
+	Source: {name}	แหล่งที่มา: {name}
 	Space	Space
 	Space After	ระยะหลังย่อหน้า
 	Space Before	ระยะก่อนย่อหน้า
@@ -3800,6 +3885,7 @@
 	Spacing:	ระยะห่าง:
 	Sparkle	สปาร์กเล้ล
 	Spatter	สปัตเตอร์
+	Specify Channels:	ระบุช่องสี:
 	Speckle	สเปกเกิล
 	Speed	ความเร็ว
 	Spell check complete.	ตรวจสอบการพิมพ์เสร็จสิ้น
@@ -3861,6 +3947,7 @@
 	Std Dev:	ค่าความเบี่ยงเบนมาตรฐาน:
 	Step Backward	ย้อนกลับขั้น
 	Step Forward	ก้าวไปข้างหน้า
+	Step by Step	ทีละขั้นตอน
 	Step {step} ({id}) failed: {error}	ขั้นตอน {step} ({id}) ล้มเหลว: {error}
 	Step {step} is waiting for its dialog	ขั้นตอน {step} กำลังรอการตั้งค่าของช่องโต้ตอบ
 	Stippled	ด้านจุด
@@ -3911,6 +3998,7 @@
 	Style: Normal	รูปแบบ: ปกติ
 	Styles	รูปแบบ
 	Stylistic Alternates	ตัวเลือกแบบเฉพาะ
+	Stylistic Sets	ชุดรูปแบบตัวอักษร
 	Stylization	การปรับแต่งรูปแบบ
 	Stylize	ปรับลักษณะ
 	Stylized dabs from a history state	จุดรูปแบบที่ปรับแต่งจากสถานะประวัติ
@@ -3991,11 +4079,14 @@
 	Texture Each Tip	ใช้พื้นผิวกับปลายแปรงแต่ละจุด
 	Texturizer	เครื่องมือการเติมลวดลาย
 	Thaw Mask	ปลดมาสก์
+	The GPU compositor is still being prepared	กำลังเตรียมตัวประมวลผลการซ้อนภาพด้วย GPU
 	The GPU compositor wasn't used: {reason}	ไม่ได้ใช้คอมโพสิเตอร์ของ GPU: {reason}
+	The History Brush source was deleted: set a new source in the History panel	แหล่งข้อมูลของแปรงประวัติถูกลบแล้ว ให้ตั้งแหล่งข้อมูลใหม่ในแผงประวัติ
 	The active layer has no pixels here — turn on Sample All Layers or select a layer with pixels	เลเยอร์ที่เปิดใช้งานไม่มีพิกเซลที่นี่ — ตั้งค่าให้เลือกทุกเลเยอร์ หรือเลือกเลเยอร์ที่มีพิกเซล
 	The canvas is shown as sRGB. Choose a monitor profile in Edit › Color Settings.	แผงภาพแสดงเป็น sRGB โปรดเลือกโปรไฟล์หน้าจอใน แก้ไข › ตั้งค่าสี
 	The canvas on {display} is shown as sRGB. Choose a monitor profile in Edit › Color Settings.	ผืนภาพบน {display} แสดงเป็น sRGB เลือกโปรไฟล์จอภาพใน แก้ไข › ตั้งค่าสี
 	The current gradient (pick one in Window › Gradients)	ไล่ระดับสีปัจจุบัน (เลือกใน หน้าต่าง › ไล่ระดับสี)
+	The current scratch directory ({path}) doesn't report its free space, so PhotoCraft can't stop before it fills up, and large files get no extra room from it without a Scratch Size Limit. This warning applies to the current configuration; changes above take effect on Apply or OK. Set a limit or use a local disk.	ไดเรกทอรีดิสก์พักข้อมูลปัจจุบัน ({path}) ไม่รายงานพื้นที่ว่าง PhotoCraft จึงไม่สามารถหยุดก่อนพื้นที่เต็มได้ และไฟล์ขนาดใหญ่จะไม่ได้รับพื้นที่เพิ่มจากไดเรกทอรีนี้หากไม่กำหนดขีดจำกัดขนาดดิสก์พักข้อมูล คำเตือนนี้อ้างอิงการตั้งค่าที่ใช้อยู่ การเปลี่ยนแปลงด้านบนจะมีผลเมื่อกด นำไปใช้ หรือ ตกลง โปรดกำหนดขีดจำกัดหรือใช้ดิสก์ในเครื่อง
 	The document does not have an embedded colour profile. Working space: {working}.	เอกสารนี้ไม่มีโปรไฟล์สีที่รวมอยู่ พื้นที่ทำงาน: {working}.
 	The document has an embedded colour profile that does not match the working space.\nEmbedded: {embedded}\nWorking: {working}	เอกสารนี้มีโปรไฟล์สีที่รวมอยู่ ซึ่งไม่ตรงกับพื้นที่ทำงาน\nที่รวม: {embedded}\nทำงาน: {working}
 	The document is closed	เอกสารถูกปิดแล้ว
@@ -4007,6 +4098,8 @@
 	The fastest and the softest, with colour fringing on fine detail.	เร็วที่สุดและนุ่มที่สุด พร้อมการสะท้อนสีรอบๆ รายละเอียดเล็กๆ
 	The file could not be opened.	ไม่สามารถเปิดไฟล์ได้
 	The file could not be saved.	ไม่สามารถบันทึกไฟล์ได้
+	The frame is locked	เฟรมถูกล็อกอยู่
+	The frame is unavailable	เฟรมไม่พร้อมใช้งาน
 	The gradient the Gradient tool paints with	ไล่ระดับสีที่เครื่องมือไล่ระดับสีใช้วาด
 	The keyboard shortcut set was not imported: {error}	นำเข้าชุดแป้นพิมพ์ลัดไม่สำเร็จ: {error}
 	The layer or its mask changed. Drag the mask onto the Trash again.	ชั้นหรือมาสก์ของชั้นเปลี่ยนไป ดึงมาสก์ไปยังขยะอีกครั้ง
@@ -4123,6 +4216,7 @@
 	Transparency Shapes Layer	ใช้ความโปร่งใสกำหนดรูปทรงเลเยอร์
 	Transparency Threshold	ค่าเกณฑ์ความโปร่งใส
 	Transparent	โปร่งใส
+	Transparent (default)	โปร่งใส (ค่าเริ่มต้น)
 	Trap	ขยายขอบสีเพื่อการพิมพ์
 	Trap…	ขยายขอบสีเพื่อการพิมพ์…
 	Tree	ต้นไม้
@@ -4195,9 +4289,11 @@
 	Update All Text Layers	อัปเดตชั้นข้อความทั้งหมด
 	Update Layer Comp	อัปเดตเลเยอร์คอมป์
 	Update Modified Content	อัปเดตเนื้อหาที่แก้ไข
+	Update and Restart	อัปเดตแล้วเริ่มใหม่
 	Update layer comp (visibility, position and appearance)	อัปเดตเลเยอร์คอมป์ (การแสดงผล ตำแหน่ง และรูปลักษณ์)
 	Update the current brush with these settings	อัปเดตแปรงปัจจุบันด้วยการตั้งค่าเหล่านี้
 	Updates	อัปเดต
+	Updates have not been checked yet.	ยังไม่ได้ตรวจสอบอัปเดต
 	Upper	ด้านบน
 	Urgency	ความเร่งด่วน
 	Use	การใช้งาน
@@ -4319,6 +4415,7 @@
 	Web Snap	ปรับให้ตรงกับสีเว็บ
 	WebP (lossless)	WebP (ไม่มีการสูญเสียข้อมูล)
 	Webp	Webp
+	Website	เว็บไซต์
 	Weight	น้ำหนัก
 	Weight:	น้ำหนัก:
 	Wet	สัญญาณผ่านเอฟเฟกต์
@@ -4351,6 +4448,7 @@
 	Working	การทำงาน
 	Working Black Plate	แม่พิมพ์สีดำที่ใช้งาน
 	Working CMY Plate	แม่พิมพ์ CMY ที่ใช้งาน
+	Working CMY Plates	เพลต CMY ที่ใช้งาน
 	Working CMYK	CMYK ที่ใช้งาน
 	Working Cmyk	CMYK ที่ใช้งาน
 	Working Cyan Plate	แม่พิมพ์สีฟ้าอมเขียวที่ใช้งาน
@@ -4419,6 +4517,7 @@
 	red	สีแดง
 	sRGB	sRGB
 	sRGB IEC61966-2.1	sRGB IEC61966-2.1
+	seconds	วินาที
 	set in Print Settings…	ตั้งค่าใน Print Settings…
 	set name	ตั้งชื่อ
 	shortcut	แป้นพิมพ์ลัด

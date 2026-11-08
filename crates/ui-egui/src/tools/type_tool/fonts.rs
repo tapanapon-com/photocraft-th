@@ -467,7 +467,18 @@ pub(crate) fn family_picker_in(
     if (input.gained_focus() && !edit.accepted) || (!was_open && input.clicked()) || input.changed() {
         egui::Popup::open_id(ui.ctx(), popup);
     }
-    if input.changed() {
+    // Replacing the selected name with the same spelling is still a search edit.
+    // TextEdit reports no value change in that case; keep arrow navigation in the
+    // typed results instead of stepping into an unrelated installed family.
+    let typed_into_field = input.has_focus()
+        && ui.input(|i| {
+            i.events.iter().any(|event| {
+                matches!(event,
+                    egui::Event::Text(text) | egui::Event::Paste(text) | egui::Event::Ime(egui::ImeEvent::Commit(text))
+                    if !text.is_empty())
+            })
+        });
+    if input.changed() || typed_into_field {
         edit.query = edit.text.to_lowercase();
         edit.row = None;
         edit.accepted = false;
@@ -539,6 +550,11 @@ pub(crate) fn family_picker_in(
         };
         let comparable = crate::font_filters::apply(&mut rows, &filters, &library.favorites, &reference, &lookup);
         let mut selected = edit.row.filter(|&i| rows.get(i).is_some_and(|(f, _)| *f == current)).or_else(|| rows.iter().position(|(f, _)| *f == current));
+        // Retyping the current name is an explicit query. Its first Down keeps
+        // the exact result before stepping through substring matches such as
+        // "SignPainter" for "Inter". Partial queries retain their current row.
+        let pending_exact =
+            edit.row.is_none() && !edit.query.is_empty() && (current.to_lowercase() == edit.query || label(current).to_lowercase() == edit.query);
         // The menu opens on the current family, as Photoshop's does: with the recent group at the
         // top of the view when the marked row fits below it, else the marked row itself, at the
         // top of the view when it is not a recent one. Applied on the first laid-out pass (the
@@ -549,6 +565,7 @@ pub(crate) fn family_picker_in(
         let mut stepped = None;
         if down || up {
             let next = match selected {
+                Some(i) if down && pending_exact => i,
                 Some(i) if down => i.saturating_add(1).min(rows.len().saturating_sub(1)),
                 Some(i) => i.saturating_sub(1),
                 None if down => 0,

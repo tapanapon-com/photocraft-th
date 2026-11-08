@@ -5,7 +5,7 @@ ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
 DIST="$ROOT/dist/thai"
 APP="$DIST/PhotoCraft.app"
 STAGE="$DIST/dmg-stage"
-VERSION=0.20.1-th.1
+VERSION=0.21.0-th.1
 ARCH="$(uname -m)"
 BINARY="$ROOT/target/release/photocraft"
 [[ -x "$ROOT/target/release/photocraft-cli" ]] || { echo 'Build photocraft-cli --release --features heif first.' >&2; exit 1; }
@@ -22,8 +22,9 @@ cp "$BINARY" "$APP/Contents/MacOS/PhotoCraft"
 cp "$ROOT/target/release/photocraft-cli" "$APP/Contents/MacOS/photocraft-cli"
 cp "$ROOT/assets/app-icon/photocraft.icns" "$APP/Contents/Resources/PhotoCraft.icns"
 cp "$ROOT/NOTICE" "$ROOT/ATTRIBUTION.md" "$ROOT/LICENSE-MIT" "$ROOT/LICENSE-APACHE" "$APP/Contents/Resources/"
-cp "$ROOT/docs/localization-th.md" "$APP/Contents/Resources/"
-sed -e "s/@VERSION@/$VERSION/g" -e 's/@SHORT_VERSION@/0.20.1/g' \
+cp "$ROOT/docs/localization-th.md" "$ROOT/docs/thai-upgrade-20261107.md" \
+  "$ROOT/docs/validation-0.21.0-th.1.json" "$APP/Contents/Resources/"
+sed -e "s/@VERSION@/$VERSION/g" -e 's/@SHORT_VERSION@/0.21.0/g' \
   -e "s/@BUILD_SHA@/$(git -C "$ROOT" rev-parse --short HEAD)-thai/g" \
   "$ROOT/packaging/macos/Info.plist.in" > "$APP/Contents/Info.plist"
 printf 'APPL????' > "$APP/Contents/PkgInfo"
